@@ -13,27 +13,15 @@ on:
 
 jobs:
   verify_exercises:
-    # TODO: replace with another image if required to run the tests (optional)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
 
-      # TODO: setup any tooling that is required to run the tests (optional)
-      # E.g. install a specific version of a programming language
-      # E.g. install packages via apt/apk/yum/etc.
-      # Find GitHub Actions to setup tooling here:
-      # - https://github.com/actions/?q=setup&type=&language=
-      # - https://github.com/actions/starter-workflows/tree/main/ci
-      # - https://github.com/marketplace?type=actions&query=setup
-      # - name: Use <setup tooling>
-      #   uses: <action to setup tooling>
-
-      # TODO: install any dependencies (optional)
-      # E.g. npm install, bundle install, etc.
-      # - name: Install project dependencies
-      #   run: <install dependencies>
+      - name: Install uiua
+        run: gh release download 0.13.0 --repo uiua-lang/uiua --dir /usr/local/bin --pattern uiua-bin-x86_64-unk
+nown-linux-gnu-no-audio.zip
 
       - name: Verify all exercises
         run: bin/verify-exercises
