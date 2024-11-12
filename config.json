@@ -28,6 +28,18 @@
       ".meta/exemplar.ua"
     ]
   },
+  "exercises": {
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "46a9d758-fc46-408f-b31b-7dd4e33e3fbd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
+  },
   "tags": [
     "execution_mode/interpreted",
     "paradigm/array",
