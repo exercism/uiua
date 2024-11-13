@@ -52,6 +52,14 @@
         "uuid": "8a0bf181-02b7-4320-b7cf-83ecbf072560",
         "practices": [],
         "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "e26e4179-624d-4013-bbc3-3d25883e2d05",
+        "practices": [],
+        "prerequisites": [],
         "difficulty": 3
       }
     ]
