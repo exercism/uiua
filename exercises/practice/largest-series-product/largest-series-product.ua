@@ -1,1 +1,1 @@
-LargestProduct ← |2 ⍤"Please implement the LargestProduct function" ⊙⊙
+LargestProduct ← |2 ⊙(⍤ "Implement LargestProduct")
