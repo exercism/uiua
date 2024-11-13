@@ -1,0 +1,1 @@
+TwoFer ←|1 ⊙(⍤ "Please implement TwoFer" "")

@@ -55,6 +55,22 @@
         "difficulty": 3
       },
       {
+        "slug": "two-fer",
+        "name": "Two-Fer",
+        "uuid": "ffa73b1f-6495-4c46-bf3a-8f8221cd0c7b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "75ce57c2-291d-492f-9d2d-0772ab983632",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "resistor-color",
         "name": "Resistor Color",
         "uuid": "77d688f6-a4cb-4b87-a200-8691f51647c9",
