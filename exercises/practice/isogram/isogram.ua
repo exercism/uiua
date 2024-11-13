@@ -1,1 +1,1 @@
-IsIsogram ← |1 ⊙(⍤ "Implement IsIsogram" 0)
+IsIsogram ← |1 ⊙(⍤ "Please implement IsIsogram" 0)
