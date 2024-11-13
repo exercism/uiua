@@ -36,7 +36,7 @@
 # reports 1 for nonempty string and empty product (0 span)
 ⍤⤙≍ 1 LargestProduct "123" 0
 
-# rejects empty string and nonzero span                                                       # rejects empty string and nonzero span
+# rejects empty string and nonzero span
 ⍤⤙≍ "span must be smaller than string length" ⍣(LargestProduct "" 1)
 
 # rejects invalid character in digits
