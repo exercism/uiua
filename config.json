@@ -61,6 +61,38 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference of Squares",
+        "uuid": "f9d03fbf-7db9-45d5-90ce-38e38ebc1fdb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "two-fer",
+        "name": "Two-Fer",
+        "uuid": "ffa73b1f-6495-4c46-bf3a-8f8221cd0c7b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "75ce57c2-291d-492f-9d2d-0772ab983632",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "baa668e3-d0bd-4aa5-b071-d112438d8559",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ]
   },
