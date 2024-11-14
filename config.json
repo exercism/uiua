@@ -125,6 +125,22 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "203b98f2-4e30-4b0d-96c5-e475e0ed4214",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ]
   },
