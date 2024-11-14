@@ -1,1 +1,3 @@
-ResistorTrio ← |1 ⊙(⍤ "Please implement ResistorColorDuo")
+# Get the label of the resistors based on their colors
+# Label ? Colors
+Label ← |1 ⊙(⍤ "Please implement Label")
