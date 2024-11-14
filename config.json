@@ -47,12 +47,76 @@
         "difficulty": 5
       },
       {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "8a0bf181-02b7-4320-b7cf-83ecbf072560",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "c5ec978e-2f8d-48ec-ae50-0e8e9b19b0e1",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "leap",
         "name": "Leap",
         "uuid": "e26e4179-624d-4013-bbc3-3d25883e2d05",
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "0c55902b-5bf4-4262-8dd6-cb77228ab7ce",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "f1f4a83b-4f99-4452-8984-f8d98cb8a38f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "eliuds-eggs",
+        "name": "Eliud's Eggs",
+        "uuid": "2cb4a083-f7ef-4212-970e-d7d6d619cf22",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "7ea16d08-0b52-418c-b391-00ab14a16c67",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference of Squares",
+        "uuid": "f9d03fbf-7db9-45d5-90ce-38e38ebc1fdb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "cc4e0ee9-2c02-4dec-b5b6-dd0379b028dd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       },
       {
         "slug": "two-fer",
@@ -71,9 +135,50 @@
         "difficulty": 1
       },
       {
-        "slug": "resistor-color-duo",
-        "name": "Resistor Color Duo",
-        "uuid": "cc4e0ee9-2c02-4dec-b5b6-dd0379b028dd",
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "baa668e3-d0bd-4aa5-b071-d112438d8559",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "bob",
+        "name": "Bob",
+        "uuid": "e7ea6786-0d9b-44bc-91f5-ca4e058d8bc0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "203b98f2-4e30-4b0d-96c5-e475e0ed4214",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
+
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
