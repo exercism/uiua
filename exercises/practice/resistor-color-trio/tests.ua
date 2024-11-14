@@ -1,4 +1,5 @@
 ~ "resistor-color-trio.ua" ~ ResistorTrio
+
 # Orange and orange and black
 ⍤⤙≍ "33 ohms"       ResistorTrio {"orange" "orange" "black"}
 
