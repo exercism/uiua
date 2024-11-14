@@ -47,9 +47,33 @@
         "difficulty": 5
       },
       {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "8a0bf181-02b7-4320-b7cf-83ecbf072560",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "c5ec978e-2f8d-48ec-ae50-0e8e9b19b0e1",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "leap",
         "name": "Leap",
         "uuid": "e26e4179-624d-4013-bbc3-3d25883e2d05",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "0c55902b-5bf4-4262-8dd6-cb77228ab7ce",
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
@@ -119,6 +143,22 @@
         "difficulty": 1
       },
       {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "reverse-string",
         "name": "Reverse String",
         "uuid": "203b98f2-4e30-4b0d-96c5-e475e0ed4214",
@@ -133,6 +173,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },
