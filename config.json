@@ -194,10 +194,17 @@
         "slug": "grains",
         "name": "Grains",
         "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
-
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "sum-of-multiples",
+        "name": "Sum of Multiples",
+        "uuid": "e13dce79-babc-43bf-94b0-81c6fb7f7f70",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "resistor-color",
