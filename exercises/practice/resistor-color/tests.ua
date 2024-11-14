@@ -10,4 +10,4 @@
 ⍤⤙≍ 3 ColorCode {"orange"}
 
 # Colors
-⍤⤙≍ Colors [{"black"} {"brown"} {"red"} {"orange"} {"yellow"} {"green"} {"blue"} {"violet"} {"grey"} {"white"}] 
+⍤⤙≍ Colors {"black" "brown" "red" "orange" "yellow" "green" "blue" "violet" "grey" "white"}
