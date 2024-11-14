@@ -1,0 +1,1 @@
+ResistorColorDuo ← |1 ⊙(⍤ "Please implement ResistorColorDuo")
