@@ -206,6 +206,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "a6d50408-92c6-476e-ae14-71b730194158",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       }
     ]
   },
