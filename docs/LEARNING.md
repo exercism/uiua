@@ -1,13 +1,10 @@
 # Learning
 
-<!-- TODO: write document
+To get started with Uiua, the [Uiua Tour][tour] provides a great overview of core concepts and features.
+For a deeper dive, check out the [Introduction Tutorial][tutorial].
 
-  This document should link to learning resources.
+Since Uiua is a newer language, learning resources are limited and might be updated as Uiua evolves.
+Keep this in mind as you explore, and be aware that certain features may change over time.
 
-  Feel free to link to any good learning resources you know, whether they
-  be websites, blogs, books, videos or courses.
-
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/learning`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+[tour]: https://www.uiua.org/tour
+[tutorial]: https://www.uiua.org/tutorial/introduction

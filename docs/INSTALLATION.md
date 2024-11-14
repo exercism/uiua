@@ -1,15 +1,20 @@
 # Installation
 
-<!-- TODO: write document
+[Pre-compiled Uiua binaries][releases] are available, so compiling isn’t necessary.
+See the [official installation guide][install-guide] for the latest instructions including IDE integration and fonts.
 
-  This document should describe what the student needs to install
-  to allow working on the track on their local system using the CLI.
+~~~~exercism/note
+Currently our online test-runner uses version `0.13.0`.
+With Uiua's rapid development process, that might be subject to change, so keep this in mind if you can't reproduce the testing results from the website.
+~~~~
 
-  You can include the installation instructions in this document, but
-  usually it is better to link to a resource with the official installation
-  instructions, to prevent the instructions from becoming outdated.
+Once downloaded to your intended location, you’ll need to add Uiua to your system PATH.
 
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/installation`.
+- **macOS:** Use Finder to open `Applications > Utilities > Terminal`. Enter `export PATH="/path/to/uiua:$PATH"` to run Uiua from any location.
 
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+- **Windows:** Open "Edit Environment Variables" from the Start menu. In "Path," add your Uiua folder.
+
+- **Linux:** Open Terminal and add `export PATH="/path/to/uiua:$PATH"` to `~/.bashrc` or `~/.profile` for easy access.
+
+[releases]: https://github.com/uiua-lang/uiua/releases
+[install-guide]: https://www.uiua.org/docs/install#basic

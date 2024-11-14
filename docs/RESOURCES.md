@@ -1,13 +1,14 @@
 # Resources
 
-<!-- TODO: write document
+- The most important resource is the [official documentation][docs]
+- For online editing, use the [Uiua Pad][pad]
+- Dive into the sourcecode on Uiua's [GitHub repository][github]
+- Stay updated with the official [Uiua Blog][blog]
 
-  This document should link to useful resources.
+The [main website][main] also includes a link to the Discord server where you can discuss Uiua with other enthusiasts.
 
-  Feel free to link to any good resources you know, whether they
-  be websites, videos, mailing lists, etc.
-
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/resources`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+[docs]: https://www.uiua.org/docs
+[github]: https://github.com/uiua-lang/uiua
+[pad]: https://www.uiua.org/pad
+[blog]: https://www.uiua.org/blog
+[main]: https://www.uiua.org
