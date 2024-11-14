@@ -1,0 +1,1 @@
+Gigasecond ←|1 ⊙(⍤ "Please implement Gigasecond" [])
