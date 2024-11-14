@@ -1,1 +1,1 @@
-ReverseString ← |1 ⇌
+ReverseString ← |1 ∧⊂:""
