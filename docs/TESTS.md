@@ -29,12 +29,6 @@ $ uiua test tests.ua
 Test passed
 ```
 
-## Skipped Tests
-
-Some exercises might include skipped tests to help you focus on early functionality before handling complex cases.
-Other exercises might exclude some test cases, the creator did not seem necessary to get a passing grade for the core of the concept being taught.
-To unskip tests, remove the relevant sections in the tests.ua file.
-
 ## Further Resources
 
 For more on testing with Uiua, refer to the [Uiua testing][uiua-testing-docs] documentation.
