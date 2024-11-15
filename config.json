@@ -240,6 +240,38 @@
       }
     ]
   },
+  "key_features": [
+    {
+      "title": "Vectorized operations",
+      "content": "Any operation that applies to one item also applies to many items",
+      "icon": "concurrency"
+    },
+    {
+      "title": "Expressive",
+      "content": "Uiua's many built-in functions allow you to easily express complex data transformations.",
+      "icon": "powerful"
+    },
+    {
+      "title": "Concise",
+      "content": "Write concise, point-free code through tacit programming.",
+      "icon": "small"
+    },
+    {
+      "title": "Simple syntax",
+      "content": "Uiua has very simple syntax and thus little ceremony.",
+      "icon": "easy"
+    },
+    {
+      "title": "Friendly glyphs",
+      "content": "All built-in functions have friendly glyphs. The formatter auto-converts function names into glyphs.",
+      "icon": "fun"
+    },
+    {
+      "title": "Simple execution model",
+      "content": "Uiua uses a simple, stack-based execution model that executes code from right to left.",
+      "icon": "functional"
+    }
+  ],
   "tags": [
     "execution_mode/interpreted",
     "paradigm/array",
