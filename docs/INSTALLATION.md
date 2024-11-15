@@ -1,7 +1,7 @@
 # Installation
 
-[Pre-compiled Uiua binaries][releases] are available, so compiling isn’t necessary.
-See the [official installation guide][install-guide] for the latest instructions including IDE integration and fonts.
+[Pre-compiled Uiua binaries][releases] are available, so compiling isn't necessary.
+See the [official installation guide][install-guide] for the latest instructions, including IDE integration and fonts.
 
 ~~~~exercism/note
 Currently our online test-runner uses version `0.13.0`.
