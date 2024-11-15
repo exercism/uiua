@@ -191,6 +191,14 @@
         "difficulty": 4
       },
       {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "gigasecond",
         "name": "Gigasecond",
         "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
