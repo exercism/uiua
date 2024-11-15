@@ -175,6 +175,14 @@
         "difficulty": 1
       },
       {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "22965196-08db-4ca9-882f-8465264deda6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "raindrops",
         "name": "Raindrops",
         "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
