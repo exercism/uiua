@@ -191,6 +191,14 @@
         "difficulty": 2
       },
       {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "383c430d-99ba-439b-bba5-1308742be372",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "armstrong-numbers",
         "name": "Armstrong Numbers",
         "uuid": "c03770d3-bb65-40bf-b687-12f31000f28c",
