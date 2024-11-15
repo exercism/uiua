@@ -1,21 +1,24 @@
 # Help
 
-<!-- TODO: write document
+Below are some resources for getting help if you run into trouble:
 
-  This document should contain track-specific instructions on how to get help when
-  the student is stuck.
+- [The Uiua project's main website][main] hosts [documentation][docs], examples, tutorials and community resources.
+- [The Exercism Community on Discord][exercism-discord]
+- [Uiua Community on Discord][discord] is a very helpful and active community.
+- The [introduction tutorial][tutorial] can give a broad overview and has small exercises to learn Uiua.
+- [Uiua Pad][pad] for stepping through small code snippets visually.
+- [/r/apljk/][apl-reddit] is a subreddit for apl like languages.
 
-  The instructions should be short and to the point.
+Additionally, [StackOverflow][so] is a good spot to search for your problem/question to see if it has been answered already.
+If not - you can always [ask][ask-so] or [answer][answer-so] someone else's question.
 
-  You could link to resources like Gitter channels, forums or mailing lists:
-  whatever can help a student become unstuck.
-
-  This document should **not** link to Exercism-wide (track-agnostic) help resources,
-  as those resources will automatically be included in the HELP.md file.
-
-  The links in this document can overlap with those in docs/LEARNING.md or docs/RESOURCES.md
-
-  When a student downloads an exercise via the CLI, this file's contents are
-  included into the HELP.md file.
-
-  See https://exercism.org/docs/building/tracks/shared-files for more information. -->
+[main]: https://www.uiua.org
+[docs]: https://www.uiua.org/docs
+[exercism-discord]: https://exercism.org/r/discord
+[discord]: https://discord.gg/3r9nrfYhCc
+[tutorial]: https://www.uiua.org/tutorial/introduction
+[pad]: https://www.uiua.org/pad
+[apl-reddit]: https://www.reddit.com/r/apljk/
+[so]: http://stackoverflow.com/questions/tagged/uiua
+[ask-so]: https://stackoverflow.com/help/how-to-ask
+[answer-so]: https://stackoverflow.com/help/how-to-answer
