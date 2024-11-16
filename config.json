@@ -156,7 +156,7 @@
         "uuid": "baa668e3-d0bd-4aa5-b071-d112438d8559",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "perfect-numbers",
@@ -172,7 +172,15 @@
         "uuid": "e7ea6786-0d9b-44bc-91f5-ca4e058d8bc0",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "22965196-08db-4ca9-882f-8465264deda6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
       },
       {
         "slug": "raindrops",
@@ -181,6 +189,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "gigasecond",
@@ -205,6 +221,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "383c430d-99ba-439b-bba5-1308742be372",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       },
       {
         "slug": "armstrong-numbers",
@@ -253,6 +277,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "flatten-array",
+        "name": "Flatten Array",
+        "uuid": "04081c85-4cbc-46b8-80e3-869014084d4f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       },
       {
         "slug": "anagram",
