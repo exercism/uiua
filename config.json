@@ -111,6 +111,14 @@
         "difficulty": 2
       },
       {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "1fea04f5-ef39-4bdc-8e03-75758906211f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "scrabble-score",
         "name": "Scrabble Score",
         "uuid": "d77d7b49-5d53-499d-8d75-0458909c87ec",
