@@ -279,6 +279,14 @@
         "difficulty": 3
       },
       {
+        "slug": "atbash-cipher",
+        "name": "Atbash Cipher",
+        "uuid": "4d5936a5-e3b1-4870-abcd-885c3c611893",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "flatten-array",
         "name": "Flatten Array",
         "uuid": "04081c85-4cbc-46b8-80e3-869014084d4f",
