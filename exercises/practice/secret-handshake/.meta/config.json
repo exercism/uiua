@@ -1,5 +1,7 @@
 {
-  "authors": [],
+  "authors": [
+    "glaxxie"
+  ],
   "files": {
     "solution": [
       "secret-handshake.ua"
