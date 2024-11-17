@@ -451,6 +451,14 @@
         "difficulty": 5
       },
       {
+        "slug": "etl",
+        "name": "ETL",
+        "uuid": "2a5b0deb-bfee-4c43-9988-0d9f389d82fe",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "robot-simulator",
         "name": "Robot Simulator",
         "uuid": "6d0a1479-a07f-4824-841f-52618b43a93f",
