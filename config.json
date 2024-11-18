@@ -255,6 +255,14 @@
         "difficulty": 3
       },
       {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "79931b10-8592-44f0-90e3-52f6b5283817",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "grains",
         "name": "Grains",
         "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
@@ -325,6 +333,22 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "high-scores",
+        "name": "High Scores",
+        "uuid": "803f7779-8a3f-4c4f-88d1-edf40f76f53e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "05540841-7c01-4c02-a9de-258f3554b815",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },
