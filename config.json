@@ -335,6 +335,14 @@
         "difficulty": 4
       },
       {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "33bca041-4f26-4d6a-ac4c-bcaf342d2472",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "803f7779-8a3f-4c4f-88d1-edf40f76f53e",
