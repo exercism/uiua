@@ -266,6 +266,14 @@
         "difficulty": 3
       },
       {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "48601e2b-bae3-4133-901f-6df39936b04f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "grains",
         "name": "Grains",
         "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
