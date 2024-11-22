@@ -282,6 +282,14 @@
         "difficulty": 2
       },
       {
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding",
+        "uuid": "d83ea09c-39f9-4e00-9a74-3f1d3be262ac",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "79decac4-6fd3-45cb-b53f-aa6c6044d032",
