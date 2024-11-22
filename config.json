@@ -194,6 +194,14 @@
         "difficulty": 2
       },
       {
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "95c4abb2-b892-4ee3-8065-cc51084355b8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "roman-numerals",
         "name": "Roman Numerals",
         "uuid": "22965196-08db-4ca9-882f-8465264deda6",
