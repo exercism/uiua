@@ -331,6 +331,14 @@
         "difficulty": 3
       },
       {
+        "slug": "simple-cipher",
+        "name": "Simple Cipher",
+        "uuid": "7e0d78ab-d655-4763-93ea-bac581dadcbb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "resistor-color",
         "name": "Resistor Color",
         "uuid": "77d688f6-a4cb-4b87-a200-8691f51647c9",
