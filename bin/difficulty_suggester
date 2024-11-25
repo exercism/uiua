@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import json
+from collections import Counter
+
+
+# Define valid tokens with complexity factors, start with 1.0 for all
+VALID_TOKENS = {
+    "◠": 1.0, "⌵": 1.0, "+": 1.0, "⌝": 1.0, "’": 1.0, "⍤": 1.0, "∠": 1.0,
+    "˜": 1.0, "◡": 1.0, "⋯": 1.0, "∩": 1.0, "□": 1.0, "⊓": 1.0, "⊸": 1.0,
+    "⍩": 1.0, "⌈": 1.0, "⑄": 1.0, "⊛": 1.0, "ℂ": 1.0, "◇": 1.0, "⊟": 1.0,
+    "◴": 1.0, "∂": 1.0, "♭": 1.0, "⊙": 1.0, "÷": 1.0, "⍢": 1.0, "↘": 1.0,
+    ".": 1.0, "∵": 1.0, "=": 1.0, "⍖": 1.0, "⬚": 1.0, "⌕": 1.0, "⊢": 1.0,
+    "¤": 1.0, ":": 1.0, "⌊": 1.0, "∧": 1.0, "⊃": 1.0, "⋅": 1.0, "≥": 1.0,
+    ">": 1.0, "⊕": 1.0, "∘": 1.0, "⊗": 1.0, "∫": 1.0, "⍚": 1.0, "⊂": 1.0,
+    "▽": 1.0, "⊣": 1.0, "⧻": 1.0, "≤": 1.0, "<": 1.0, "ₙ": 1.0, "⦷": 1.0,
+    "≍": 1.0, "↥": 1.0, "∊": 1.0, "∈": 1.0, "↧": 1.0, "◿": 1.0, "×": 1.0,
+    "¯": 1.0, "¬": 1.0, "≠": 1.0, "⌅": 1.0, "⤚": 1.0, "⟜": 1.0, "⤸": 1.0,
+    "⋕": 1.0, "⊜": 1.0, "⊡": 1.0, "◌": 1.0, "ⁿ": 1.0, "⚂": 1.0, "⇡": 1.0,
+    "/": 1.0, "⍥": 1.0, "☇": 1.0, "↯": 1.0, "⇌": 1.0, "⍏": 1.0, "↻": 1.0,
+    "⁅": 1.0, "≡": 1.0, "⊏": 1.0, "△": 1.0, "±": 1.0, "∿": 1.0, "⍆": 1.0,
+    "√": 1.0, "\\": 1.0, "?": 1.0, "-": 1.0, "⨬": 1.0, "⊞": 1.0, "↙": 1.0,
+    "⸮": 1.0, "⍉": 1.0, "◹": 1.0, "⍣": 1.0, "⧅": 1.0, "°": 1.0, "⍜": 1.0,
+    "◰": 1.0, "⊚": 1.0, "◫": 1.0, "⤙": 1.0
+}
+
+
+def tokenize_file(file_path):
+    """Tokenizes a file into valid symbols."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    return [char for char in content if char in VALID_TOKENS]
+
+
+def calculate_global_rarity(token_counts_list):
+    """Calculate global rarity for tokens across exercises."""
+    global_counts = Counter()
+    for token_counts in token_counts_list:
+        global_counts.update(token_counts)
+    total_exercises = len(token_counts_list)
+    return {
+        token: (1 / (count / total_exercises))
+        for token, count in global_counts.items()
+    }
+
+
+def calculate_raw_difficulty(token_counts, global_rarity):
+    """Calculate raw difficulty based on token rarity."""
+    if not token_counts:
+        return 0, 0, (0, 0)
+    # More complex tokens have bigger impact on difficulty
+    rarities_and_complexity = [global_rarity.get(
+        token, 0) * VALID_TOKENS.get(token, 1.0) for token in token_counts]
+    avg_rarity = sum(rarities_and_complexity) / len(rarities_and_complexity)
+    return avg_rarity * len(rarities_and_complexity), len(token_counts), (min(rarities_and_complexity), max(rarities_and_complexity))
+
+
+def normalize_difficulty(raw_difficulties, target_range=(1, 9)):
+    """Normalize raw difficulties to a target range."""
+    min_diff, max_diff = min(raw_difficulties), max(raw_difficulties)
+    scale = (target_range[1] - target_range[0]) / (max_diff - min_diff or 1)
+    return [
+        target_range[0] + scale * (difficulty - min_diff)
+        for difficulty in raw_difficulties
+    ]
+
+
+def assign_difficulties(repo_path):
+    """Main function to assign difficulty to exercises."""
+    exercises_path = os.path.join(repo_path, "uiua/exercises/practice")
+    results = {}
+    token_counts_list = []
+
+    # Collect token counts for all exercises
+    for exercise in os.listdir(exercises_path):
+        example_path = os.path.join(
+            exercises_path, exercise, ".meta", "example.ua")
+        if os.path.exists(example_path):
+            tokens = tokenize_file(example_path)
+            token_counts = Counter(tokens)
+            token_counts_list.append(token_counts)
+            results[exercise] = {"token_counts": token_counts}
+
+    # Calculate global rarity
+    global_rarity = calculate_global_rarity(token_counts_list)
+
+    # Calculate difficulties
+    for exercise, data in results.items():
+        raw_difficulty, unique_tokens, rarity_range = calculate_raw_difficulty(
+            data["token_counts"], global_rarity
+        )
+        results[exercise].update({
+            "raw_difficulty": raw_difficulty,
+            "unique_tokens": unique_tokens,
+            "rarity_range": rarity_range,
+        })
+
+    # Normalize difficulties
+    raw_difficulties = [data["raw_difficulty"] for data in results.values()]
+    normalized_difficulties = normalize_difficulty(raw_difficulties)
+
+    for exercise, normalized in zip(results.keys(), normalized_difficulties):
+        results[exercise]["difficulty"] = round(normalized)
+
+    # Sort results by difficulty
+    sorted_results = {
+        exercise: data
+        for exercise, data in sorted(
+            results.items(), key=lambda x: x[1]["difficulty"]
+        )
+    }
+
+    return sorted_results
+
+def print_results(results, format="plain"):
+    """
+    Prints results in the specified format.
+    
+    Args:
+        results (dict): The results to print, where keys are exercise names and values contain difficulty data.
+        format (str): The format to print the results in ("plain", "markdown", "json").
+    """
+    if format == "plain":
+        for exercise, data in results.items():
+            print(f"{exercise}:")
+            print(f"  Difficulty: {data['difficulty']}")
+            print(f"  Unique Tokens: {data['unique_tokens']}")
+            print(f"  Rarity Range: {data['rarity_range']}")
+            print("-" * 40)
+
+    elif format == "markdown":
+        print("| Exercise | Difficulty | Unique Tokens | Rarity Range |")
+        print("|----------|------------|---------------|--------------|")
+        for exercise, data in results.items():
+            print(
+                f"| {exercise} | {data['difficulty']} | {data['unique_tokens']} | {data['rarity_range']} |"
+            )
+
+    elif format == "json":
+        print(json.dumps(results, indent=4))
+    else:
+        print("Unsupported format. Please choose 'plain', 'markdown', or 'json'.")
+
+
+if __name__ == "__main__":
+    # Set up argparse for command-line interaction
+    parser = argparse.ArgumentParser(description="Assign difficulties to exercises and print the results.")
+    parser.add_argument(
+        "format",
+        choices=["plain", "markdown", "json"],
+        default="plain",
+        help="Specify the output format: 'plain' for plain text, 'markdown' for GitHub-flavored Markdown, or 'json' for JSON."
+    )
+    parser.add_argument(
+        "--repo-path",
+        default="../",
+        help="The path to the repository (default: '../')."
+    )
+
+    args = parser.parse_args()
+
+    # Use the provided arguments
+    result = assign_difficulties(args.repo_path)
+    print_results(result, format=args.format)
