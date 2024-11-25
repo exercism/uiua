@@ -507,6 +507,14 @@
         "difficulty": 6
       },
       {
+        "slug": "matching-brackets",
+        "name": "Matching Brackets",
+        "uuid": "e8f93b1b-ab63-468e-9e9f-83584152dd7a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "twelve-days",
         "name": "Twelve Days",
         "uuid": "95c4abb2-b892-4ee3-8065-cc51084355b8",
