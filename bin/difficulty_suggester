@@ -5,26 +5,7 @@ import os
 import json
 from collections import Counter
 
-
-# Define valid tokens with complexity factors, start with 1.0 for all
-VALID_TOKENS = {
-    "◠": 1.0, "⌵": 1.0, "+": 1.0, "⌝": 1.0, "’": 1.0, "⍤": 1.0, "∠": 1.0,
-    "˜": 1.0, "◡": 1.0, "⋯": 1.0, "∩": 1.0, "□": 1.0, "⊓": 1.0, "⊸": 1.0,
-    "⍩": 1.0, "⌈": 1.0, "⑄": 1.0, "⊛": 1.0, "ℂ": 1.0, "◇": 1.0, "⊟": 1.0,
-    "◴": 1.0, "∂": 1.0, "♭": 1.0, "⊙": 1.0, "÷": 1.0, "⍢": 1.0, "↘": 1.0,
-    ".": 1.0, "∵": 1.0, "=": 1.0, "⍖": 1.0, "⬚": 1.0, "⌕": 1.0, "⊢": 1.0,
-    "¤": 1.0, ":": 1.0, "⌊": 1.0, "∧": 1.0, "⊃": 1.0, "⋅": 1.0, "≥": 1.0,
-    ">": 1.0, "⊕": 1.0, "∘": 1.0, "⊗": 1.0, "∫": 1.0, "⍚": 1.0, "⊂": 1.0,
-    "▽": 1.0, "⊣": 1.0, "⧻": 1.0, "≤": 1.0, "<": 1.0, "ₙ": 1.0, "⦷": 1.0,
-    "≍": 1.0, "↥": 1.0, "∊": 1.0, "∈": 1.0, "↧": 1.0, "◿": 1.0, "×": 1.0,
-    "¯": 1.0, "¬": 1.0, "≠": 1.0, "⌅": 1.0, "⤚": 1.0, "⟜": 1.0, "⤸": 1.0,
-    "⋕": 1.0, "⊜": 1.0, "⊡": 1.0, "◌": 1.0, "ⁿ": 1.0, "⚂": 1.0, "⇡": 1.0,
-    "/": 1.0, "⍥": 1.0, "☇": 1.0, "↯": 1.0, "⇌": 1.0, "⍏": 1.0, "↻": 1.0,
-    "⁅": 1.0, "≡": 1.0, "⊏": 1.0, "△": 1.0, "±": 1.0, "∿": 1.0, "⍆": 1.0,
-    "√": 1.0, "\\": 1.0, "?": 1.0, "-": 1.0, "⨬": 1.0, "⊞": 1.0, "↙": 1.0,
-    "⸮": 1.0, "⍉": 1.0, "◹": 1.0, "⍣": 1.0, "⧅": 1.0, "°": 1.0, "⍜": 1.0,
-    "◰": 1.0, "⊚": 1.0, "◫": 1.0, "⤙": 1.0
-}
+from tokens import VALID_TOKENS
 
 
 def tokenize_file(file_path):
@@ -114,10 +95,11 @@ def assign_difficulties(repo_path):
 
     return sorted_results
 
+
 def print_results(results, format="plain"):
     """
     Prints results in the specified format.
-    
+
     Args:
         results (dict): The results to print, where keys are exercise names and values contain difficulty data.
         format (str): The format to print the results in ("plain", "markdown", "json").
@@ -146,7 +128,8 @@ def print_results(results, format="plain"):
 
 if __name__ == "__main__":
     # Set up argparse for command-line interaction
-    parser = argparse.ArgumentParser(description="Assign difficulties to exercises and print the results.")
+    parser = argparse.ArgumentParser(
+        description="Assign difficulties to exercises and print the results.")
     parser.add_argument(
         "format",
         choices=["plain", "markdown", "json"],
