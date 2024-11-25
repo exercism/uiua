@@ -211,6 +211,14 @@
         "difficulty": 5
       },
       {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "d04c6a98-91a0-4606-a2eb-3ef5c934e3ae",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "raindrops",
         "name": "Raindrops",
         "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
