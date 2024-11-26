@@ -451,6 +451,14 @@
         "difficulty": 7
       },
       {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "1dabde92-f6b2-429d-9856-87c5aa1d027b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
