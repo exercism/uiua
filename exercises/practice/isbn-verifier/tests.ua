@@ -1,4 +1,4 @@
-~ "isbn-verifier.ua" ~ IsValid #
+~ "isbn-verifier.ua" ~ IsValid
 
 # valid isbn
 ⍤⤙≍ 1 IsValid "3-598-21508-8"
