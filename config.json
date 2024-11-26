@@ -1,507 +1,506 @@
 {
-    "language": "Uiua",
-    "slug": "uiua",
-    "active": false,
-    "status": {
-      "concept_exercises": false,
-      "test_runner": true,
-      "representer": false,
-      "analyzer": false
-    },
-    "blurb": "Uiua (wee-wuh) is a general purpose, stack-based, array-oriented programming language with a focus on simplicity, beauty, and tacit code.",
-    "version": 3,
-    "online_editor": {
-      "indent_style": "space",
-      "indent_size": 2,
-      "highlightjs_language": "uiua"
-    },
-    "test_runner": {
-      "average_run_time": 2
-    },
-    "files": {
-      "solution": [
-        "%{kebab_slug}.ua"
-      ],
-      "test": [
-        "tests.ua"
-      ],
-      "example": [
-        ".meta/example.ua"
-      ],
-      "exemplar": [
-        ".meta/exemplar.ua"
-      ]
-    },
-    "exercises": {
-      "practice": [
-        {
-          "slug": "hello-world",
-          "name": "Hello World",
-          "uuid": "46a9d758-fc46-408f-b31b-7dd4e33e3fbd",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "gigasecond",
-          "name": "Gigasecond",
-          "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "leap",
-          "name": "Leap",
-          "uuid": "e26e4179-624d-4013-bbc3-3d25883e2d05",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "resistor-color",
-          "name": "Resistor Color",
-          "uuid": "77d688f6-a4cb-4b87-a200-8691f51647c9",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "reverse-string",
-          "name": "Reverse String",
-          "uuid": "203b98f2-4e30-4b0d-96c5-e475e0ed4214",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "rna-transcription",
-          "name": "RNA Transcription",
-          "uuid": "e00c0361-ea52-4f15-b368-d9bc3a2b7e42",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "scrabble-score",
-          "name": "Scrabble Score",
-          "uuid": "d77d7b49-5d53-499d-8d75-0458909c87ec",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 1
-        },
-        {
-          "slug": "acronym",
-          "name": "Acronym",
-          "uuid": "baa668e3-d0bd-4aa5-b071-d112438d8559",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "diamond",
-          "name": "Diamond",
-          "uuid": "5262c7c5-1fce-4019-b42a-e57555243968",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "difference-of-squares",
-          "name": "Difference of Squares",
-          "uuid": "f9d03fbf-7db9-45d5-90ce-38e38ebc1fdb",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "eliuds-eggs",
-          "name": "Eliud's Eggs",
-          "uuid": "2cb4a083-f7ef-4212-970e-d7d6d619cf22",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "grains",
-          "name": "Grains",
-          "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "house",
-          "name": "House",
-          "uuid": "0606bc0d-8015-481c-93af-68fa8cb82363",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "nucleotide-count",
-          "name": "Nucleotide Count",
-          "uuid": "a6d50408-92c6-476e-ae14-71b730194158",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "proverb",
-          "name": "Proverb",
-          "uuid": "e8628cec-3dab-4ef3-9e65-ad629ce15b07",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "resistor-color-duo",
-          "name": "Resistor Color Duo",
-          "uuid": "cc4e0ee9-2c02-4dec-b5b6-dd0379b028dd",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "two-fer",
-          "name": "Two-Fer",
-          "uuid": "ffa73b1f-6495-4c46-bf3a-8f8221cd0c7b",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 2
-        },
-        {
-          "slug": "armstrong-numbers",
-          "name": "Armstrong Numbers",
-          "uuid": "c03770d3-bb65-40bf-b687-12f31000f28c",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "bob",
-          "name": "Bob",
-          "uuid": "e7ea6786-0d9b-44bc-91f5-ca4e058d8bc0",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "hamming",
-          "name": "Hamming",
-          "uuid": "f1f4a83b-4f99-4452-8984-f8d98cb8a38f",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "matrix",
-          "name": "Matrix",
-          "uuid": "79931b10-8592-44f0-90e3-52f6b5283817",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "pascals-triangle",
-          "name": "Pascal's Triangle",
-          "uuid": "ead1e72f-cee3-4222-a261-2098b7c23d0d",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "perfect-numbers",
-          "name": "Perfect Numbers",
-          "uuid": "7027241d-c3b8-49c7-a165-8d5dd00e657a",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "resistor-color-trio",
-          "name": "Resistor Color Trio",
-          "uuid": "b5fd608b-fe6a-47b2-8c47-7788e27cdf34",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "rotational-cipher",
-          "name": "Rotational Cipher",
-          "uuid": "e4c5b22e-b148-41e1-a853-d1d77bf0cad7",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "sieve",
-          "name": "Sieve",
-          "uuid": "d04c6a98-91a0-4606-a2eb-3ef5c934e3ae",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "simple-cipher",
-          "name": "Simple Cipher",
-          "uuid": "7e0d78ab-d655-4763-93ea-bac581dadcbb",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 3
-        },
-        {
-          "slug": "collatz-conjecture",
-          "name": "Collatz Conjecture",
-          "uuid": "7ea16d08-0b52-418c-b391-00ab14a16c67",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "darts",
-          "name": "Darts",
-          "uuid": "75ce57c2-291d-492f-9d2d-0772ab983632",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "high-scores",
-          "name": "High Scores",
-          "uuid": "803f7779-8a3f-4c4f-88d1-edf40f76f53e",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "isogram",
-          "name": "Isogram",
-          "uuid": "c5ec978e-2f8d-48ec-ae50-0e8e9b19b0e1",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "luhn",
-          "name": "Luhn",
-          "uuid": "05540841-7c01-4c02-a9de-258f3554b815",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "pangram",
-          "name": "Pangram",
-          "uuid": "0c55902b-5bf4-4262-8dd6-cb77228ab7ce",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "protein-translation",
-          "name": "Protein Translation",
-          "uuid": "33bca041-4f26-4d6a-ac4c-bcaf342d2472",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "secret-handshake",
-          "name": "Secret Handshake",
-          "uuid": "1fea04f5-ef39-4bdc-8e03-75758906211f",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "series",
-          "name": "Series",
-          "uuid": "8a0bf181-02b7-4320-b7cf-83ecbf072560",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "space-age",
-          "name": "Space Age",
-          "uuid": "79decac4-6fd3-45cb-b53f-aa6c6044d032",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "sum-of-multiples",
-          "name": "Sum of Multiples",
-          "uuid": "e13dce79-babc-43bf-94b0-81c6fb7f7f70",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "triangle",
-          "name": "Triangle",
-          "uuid": "4f4665e7-1984-4ce1-b5d9-fb462aa3ae49",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 4
-        },
-        {
-          "slug": "allergies",
-          "name": "Allergies",
-          "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "atbash-cipher",
-          "name": "Atbash Cipher",
-          "uuid": "4d5936a5-e3b1-4870-abcd-885c3c611893",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "bottle-song",
-          "name": "Bottle Song",
-          "uuid": "d5de2a9d-7fef-4475-94a8-c43fc770ecd8",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "flatten-array",
-          "name": "Flatten Array",
-          "uuid": "04081c85-4cbc-46b8-80e3-869014084d4f",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "food-chain",
-          "name": "Food Chain",
-          "uuid": "48601e2b-bae3-4133-901f-6df39936b04f",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "largest-series-product",
-          "name": "Largest Series Product",
-          "uuid": "b6f74823-beaa-4246-b8a0-847fadb54727",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "raindrops",
-          "name": "Raindrops",
-          "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "roman-numerals",
-          "name": "Roman Numerals",
-          "uuid": "22965196-08db-4ca9-882f-8465264deda6",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "square-root",
-          "name": "Square Root",
-          "uuid": "383c430d-99ba-439b-bba5-1308742be372",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 5
-        },
-        {
-          "slug": "anagram",
-          "name": "Anagram",
-          "uuid": "8234660c-0df9-4585-a9a6-3a9406eb999b",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 6
-        },
-        {
-          "slug": "twelve-days",
-          "name": "Twelve Days",
-          "uuid": "95c4abb2-b892-4ee3-8065-cc51084355b8",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 6
-        },
-        {
-          "slug": "crypto-square",
-          "name": "Crypto Square",
-          "uuid": "f5f0f47a-f777-499e-a1fd-61bbff94cceb",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 7
-        },
-        {
-          "slug": "saddle-points",
-          "name": "Saddle Points",
-          "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 8
-        },
-        {
-          "slug": "run-length-encoding",
-          "name": "Run-Length Encoding",
-          "uuid": "d83ea09c-39f9-4e00-9a74-3f1d3be262ac",
-          "practices": [],
-          "prerequisites": [],
-          "difficulty": 9
-        }
-      ]
-    },
-    "key_features": [
-      {
-        "title": "Vectorized operations",
-        "content": "Any operation that applies to one item also applies to many items",
-        "icon": "concurrency"
-      },
-      {
-        "title": "Expressive",
-        "content": "Uiua's many built-in functions allow you to easily express complex data transformations.",
-        "icon": "powerful"
-      },
-      {
-        "title": "Concise",
-        "content": "Write concise, point-free code through tacit programming.",
-        "icon": "small"
-      },
-      {
-        "title": "Simple syntax",
-        "content": "Uiua has very simple syntax and thus little ceremony.",
-        "icon": "easy"
-      },
-      {
-        "title": "Friendly glyphs",
-        "content": "All built-in functions have friendly glyphs. The formatter auto-converts function names into glyphs.",
-        "icon": "fun"
-      },
-      {
-        "title": "Simple execution model",
-        "content": "Uiua uses a simple, stack-based execution model that executes code from right to left.",
-        "icon": "functional"
-      }
+  "language": "Uiua",
+  "slug": "uiua",
+  "active": false,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
+  },
+  "blurb": "Uiua (wee-wuh) is a general purpose, stack-based, array-oriented programming language with a focus on simplicity, beauty, and tacit code.",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 2,
+    "highlightjs_language": "uiua"
+  },
+  "test_runner": {
+    "average_run_time": 2
+  },
+  "files": {
+    "solution": [
+      "%{kebab_slug}.ua"
     ],
-    "tags": [
-      "execution_mode/interpreted",
-      "paradigm/array",
-      "paradigm/stack_oriented",
-      "platform/linux",
-      "platform/mac",
-      "platform/windows",
-      "runtime/language_specific",
-      "typing/dynamic",
-      "used_for/scripts"
+    "test": [
+      "tests.ua"
+    ],
+    "example": [
+      ".meta/example.ua"
+    ],
+    "exemplar": [
+      ".meta/exemplar.ua"
     ]
-  }
-  
+  },
+  "exercises": {
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "46a9d758-fc46-408f-b31b-7dd4e33e3fbd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "739870d3-849b-44fe-bbbd-30fbead74b9a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "e26e4179-624d-4013-bbc3-3d25883e2d05",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "77d688f6-a4cb-4b87-a200-8691f51647c9",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "203b98f2-4e30-4b0d-96c5-e475e0ed4214",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "RNA Transcription",
+        "uuid": "e00c0361-ea52-4f15-b368-d9bc3a2b7e42",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "d77d7b49-5d53-499d-8d75-0458909c87ec",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "baa668e3-d0bd-4aa5-b071-d112438d8559",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "diamond",
+        "name": "Diamond",
+        "uuid": "5262c7c5-1fce-4019-b42a-e57555243968",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference of Squares",
+        "uuid": "f9d03fbf-7db9-45d5-90ce-38e38ebc1fdb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "eliuds-eggs",
+        "name": "Eliud's Eggs",
+        "uuid": "2cb4a083-f7ef-4212-970e-d7d6d619cf22",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "69abd70e-90c4-4449-b6c6-4930207f6104",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "house",
+        "name": "House",
+        "uuid": "0606bc0d-8015-481c-93af-68fa8cb82363",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "a6d50408-92c6-476e-ae14-71b730194158",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "e8628cec-3dab-4ef3-9e65-ad629ce15b07",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "cc4e0ee9-2c02-4dec-b5b6-dd0379b028dd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "two-fer",
+        "name": "Two-Fer",
+        "uuid": "ffa73b1f-6495-4c46-bf3a-8f8221cd0c7b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "armstrong-numbers",
+        "name": "Armstrong Numbers",
+        "uuid": "c03770d3-bb65-40bf-b687-12f31000f28c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "bob",
+        "name": "Bob",
+        "uuid": "e7ea6786-0d9b-44bc-91f5-ca4e058d8bc0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "f1f4a83b-4f99-4452-8984-f8d98cb8a38f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "79931b10-8592-44f0-90e3-52f6b5283817",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "pascals-triangle",
+        "name": "Pascal's Triangle",
+        "uuid": "ead1e72f-cee3-4222-a261-2098b7c23d0d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "7027241d-c3b8-49c7-a165-8d5dd00e657a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "resistor-color-trio",
+        "name": "Resistor Color Trio",
+        "uuid": "b5fd608b-fe6a-47b2-8c47-7788e27cdf34",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "rotational-cipher",
+        "name": "Rotational Cipher",
+        "uuid": "e4c5b22e-b148-41e1-a853-d1d77bf0cad7",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "d04c6a98-91a0-4606-a2eb-3ef5c934e3ae",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "simple-cipher",
+        "name": "Simple Cipher",
+        "uuid": "7e0d78ab-d655-4763-93ea-bac581dadcbb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "7ea16d08-0b52-418c-b391-00ab14a16c67",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "75ce57c2-291d-492f-9d2d-0772ab983632",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "high-scores",
+        "name": "High Scores",
+        "uuid": "803f7779-8a3f-4c4f-88d1-edf40f76f53e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "c5ec978e-2f8d-48ec-ae50-0e8e9b19b0e1",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "05540841-7c01-4c02-a9de-258f3554b815",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "0c55902b-5bf4-4262-8dd6-cb77228ab7ce",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "33bca041-4f26-4d6a-ac4c-bcaf342d2472",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "1fea04f5-ef39-4bdc-8e03-75758906211f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "8a0bf181-02b7-4320-b7cf-83ecbf072560",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "79decac4-6fd3-45cb-b53f-aa6c6044d032",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "sum-of-multiples",
+        "name": "Sum of Multiples",
+        "uuid": "e13dce79-babc-43bf-94b0-81c6fb7f7f70",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "4f4665e7-1984-4ce1-b5d9-fb462aa3ae49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "atbash-cipher",
+        "name": "Atbash Cipher",
+        "uuid": "4d5936a5-e3b1-4870-abcd-885c3c611893",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "bottle-song",
+        "name": "Bottle Song",
+        "uuid": "d5de2a9d-7fef-4475-94a8-c43fc770ecd8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "flatten-array",
+        "name": "Flatten Array",
+        "uuid": "04081c85-4cbc-46b8-80e3-869014084d4f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "48601e2b-bae3-4133-901f-6df39936b04f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "b6f74823-beaa-4246-b8a0-847fadb54727",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "ae93a2d1-baf9-4e02-8a85-a2ba0ee1c61d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "22965196-08db-4ca9-882f-8465264deda6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "383c430d-99ba-439b-bba5-1308742be372",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "anagram",
+        "name": "Anagram",
+        "uuid": "8234660c-0df9-4585-a9a6-3a9406eb999b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "95c4abb2-b892-4ee3-8065-cc51084355b8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "f5f0f47a-f777-499e-a1fd-61bbff94cceb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
+        "slug": "saddle-points",
+        "name": "Saddle Points",
+        "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding",
+        "uuid": "d83ea09c-39f9-4e00-9a74-3f1d3be262ac",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 9
+      }
+    ]
+  },
+  "key_features": [
+    {
+      "title": "Vectorized operations",
+      "content": "Any operation that applies to one item also applies to many items",
+      "icon": "concurrency"
+    },
+    {
+      "title": "Expressive",
+      "content": "Uiua's many built-in functions allow you to easily express complex data transformations.",
+      "icon": "powerful"
+    },
+    {
+      "title": "Concise",
+      "content": "Write concise, point-free code through tacit programming.",
+      "icon": "small"
+    },
+    {
+      "title": "Simple syntax",
+      "content": "Uiua has very simple syntax and thus little ceremony.",
+      "icon": "easy"
+    },
+    {
+      "title": "Friendly glyphs",
+      "content": "All built-in functions have friendly glyphs. The formatter auto-converts function names into glyphs.",
+      "icon": "fun"
+    },
+    {
+      "title": "Simple execution model",
+      "content": "Uiua uses a simple, stack-based execution model that executes code from right to left.",
+      "icon": "functional"
+    }
+  ],
+  "tags": [
+    "execution_mode/interpreted",
+    "paradigm/array",
+    "paradigm/stack_oriented",
+    "platform/linux",
+    "platform/mac",
+    "platform/windows",
+    "runtime/language_specific",
+    "typing/dynamic",
+    "used_for/scripts"
+  ]
+}
