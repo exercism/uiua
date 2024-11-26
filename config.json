@@ -451,6 +451,14 @@
         "difficulty": 5
       },
       {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "f5d3eab8-59c8-47ba-aa75-00d81fe90dc2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "8234660c-0df9-4585-a9a6-3a9406eb999b",
