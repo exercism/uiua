@@ -1,5 +1,5 @@
 # Get a number's prime factors
-# RobotPosition | x y cardinal
+# RobotPosition | X Y Cardinal
 Create ←  ⊙(⍤ "Please implement Create" 0 0 "")
 
 
