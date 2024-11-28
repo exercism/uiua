@@ -491,6 +491,14 @@
         "difficulty": 7
       },
       {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "0a702019-2325-4124-862a-49cc5615cee4",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
