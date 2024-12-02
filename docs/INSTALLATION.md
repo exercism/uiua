@@ -4,7 +4,7 @@
 See the [official installation guide][install-guide] for the latest instructions, including IDE integration and fonts.
 
 ~~~~exercism/note
-Currently our online test-runner uses version `0.13.0`.
+Currently our online test-runner uses version `0.14.0-dev.2`.
 With Uiua's rapid development process, that might be subject to change, so keep this in mind if you can't reproduce the testing results from the website.
 ~~~~
 
