@@ -1,6 +1,6 @@
 # About
 
-[Uiua][uiua homepage] is an [array-][array-oriented programming] and [stack-oriented][stack-oriented programming] programming language that emphasizes concise, point-free code through [tacit programming][tacit programming].
+[Uiua][uiua homepage] is an [array-oriented][array-oriented programming] and [stack-based][stack-oriented programming] programming language that emphasizes concise, point-free code through [tacit programming][tacit programming].
 Its design is influenced by languages like [APL][apl-wiki] and J, which also prioritize powerful array manipulations.
 Uiua's core operations are represented by symbols, and many built-in functions have symbolic representations.
 Function names like `pick` and `length` are automatically converted to their respective glyphs, `⊡` and `⧻`, without requiring special input from users.
