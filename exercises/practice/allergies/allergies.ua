@@ -1,6 +1,6 @@
 # List the allergens
 # Boolean ? Score Allergen
-IsAllergicTo ← |2 ⊙(⍤ "Please implement IsAllergicTo")
+IsAllergicTo ← |2 ⊙⋅(⍤ "Please implement IsAllergicTo" 0)
 
 # List the allergens
 # Allergens ? Score
