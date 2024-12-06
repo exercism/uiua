@@ -395,6 +395,14 @@
         "difficulty": 5
       },
       {
+        "slug": "word-count",
+        "name": "Word Count",
+        "uuid": "beeed2ec-efc1-46ea-85b2-10e5ea079071",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "food-chain",
         "name": "Food Chain",
         "uuid": "48601e2b-bae3-4133-901f-6df39936b04f",
