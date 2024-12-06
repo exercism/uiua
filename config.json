@@ -363,6 +363,14 @@
         "difficulty": 4
       },
       {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "2c451bc3-ec3b-468e-a266-b96dc44ccc7c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "allergies",
         "name": "Allergies",
         "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
