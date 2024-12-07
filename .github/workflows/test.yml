@@ -21,7 +21,7 @@ jobs:
 
       - name: Install uiua
         run: |
-          gh release download 0.13.0 --repo uiua-lang/uiua --pattern uiua-bin-x86_64-unknown-linux-gnu-no-audio.zip --output uiua.zip
+          gh release download 0.14.0-dev.6 --repo uiua-lang/uiua --pattern uiua-bin-x86_64-unknown-linux-gnu-no-audio.zip --output uiua.zip
           unzip uiua.zip
           echo "${PWD}" >> "${GITHUB_PATH}"
         env:
