@@ -491,6 +491,14 @@
         "difficulty": 6
       },
       {
+        "slug": "parallel-letter-frequency",
+        "name": "Parallel Letter Frequency",
+        "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "crypto-square",
         "name": "Crypto Square",
         "uuid": "f5f0f47a-f777-499e-a1fd-61bbff94cceb",
