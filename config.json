@@ -491,6 +491,14 @@
         "difficulty": 6
       },
       {
+        "slug": "rectangles",
+        "name": "Rectangles",
+        "uuid": "2c6df8fc-766e-44a5-b30c-0cc14a451c93",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "crypto-square",
         "name": "Crypto Square",
         "uuid": "f5f0f47a-f777-499e-a1fd-61bbff94cceb",
