@@ -571,6 +571,14 @@
         "difficulty": 6
       },
       {
+        "slug": "rectangles",
+        "name": "Rectangles",
+        "uuid": "2c6df8fc-766e-44a5-b30c-0cc14a451c93",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "knapsack",
         "name": "Knapsack",
         "uuid": "87922ec1-b30a-47ea-8c37-fdeb1b86b209",
