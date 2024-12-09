@@ -635,6 +635,14 @@
         "difficulty": 8
       },
       {
+        "slug": "rectangles",
+        "name": "Rectangles",
+        "uuid": "2c6df8fc-766e-44a5-b30c-0cc14a451c93",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "game-of-life",
         "name": "Conway's Game of Life",
         "uuid": "76ecd4a7-487d-4cb6-9fd0-15b6caa769b8",
