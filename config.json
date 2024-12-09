@@ -371,6 +371,14 @@
         "difficulty": 4
       },
       {
+        "slug": "phone-number",
+        "name": "Phone Number",
+        "uuid": "ce4f7df4-a567-4d92-989f-99302b752d1c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "allergies",
         "name": "Allergies",
         "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
