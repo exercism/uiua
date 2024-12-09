@@ -243,6 +243,14 @@
         "difficulty": 3
       },
       {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "b1e4dd71-27e8-4ba6-af6b-5c0ad8a11df5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "simple-cipher",
         "name": "Simple Cipher",
         "uuid": "7e0d78ab-d655-4763-93ea-bac581dadcbb",
@@ -483,6 +491,14 @@
         "difficulty": 5
       },
       {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "a6c6f912-58b5-47b5-97dc-f09c62d26deb",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "8234660c-0df9-4585-a9a6-3a9406eb999b",
@@ -569,14 +585,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 9
-      },
-      {
-        "slug": "queen-attack",
-        "name": "Queen Attack",
-        "uuid": "b1e4dd71-27e8-4ba6-af6b-5c0ad8a11df5",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
       }
     ]
   },
