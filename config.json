@@ -547,6 +547,14 @@
         "difficulty": 6
       },
       {
+        "slug": "affine-cipher",
+        "name": "Affine Cipher",
+        "uuid": "3ecb43fc-179d-4510-84a3-63859f72c9df",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "parallel-letter-frequency",
         "name": "Parallel Letter Frequency",
         "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
