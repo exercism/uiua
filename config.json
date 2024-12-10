@@ -499,6 +499,14 @@
         "difficulty": 5
       },
       {
+        "slug": "pythagorean-triplet",
+        "name": "Pythagorean Triplet",
+        "uuid": "e8e19e09-01b2-462c-abe5-b124f740b4f0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "yacht",
         "name": "Yacht",
         "uuid": "ad7bc12c-bf61-4d46-8954-25f05b59c7c0",
