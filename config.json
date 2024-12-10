@@ -491,6 +491,14 @@
         "difficulty": 5
       },
       {
+        "slug": "killer-sudoku-helper",
+        "name": "Killer Sudoku Helper",
+        "uuid": "2a722475-8569-4e64-865d-e5b204601496",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "strain",
         "name": "Strain",
         "uuid": "f5d3eab8-59c8-47ba-aa75-00d81fe90dc2",

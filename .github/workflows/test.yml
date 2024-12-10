@@ -21,7 +21,11 @@ jobs:
 
       - name: Install uiua
         run: |
+<<<<<<< HEAD
           gh release download "${VERSION}" --repo uiua-lang/uiua --pattern uiua-bin-x86_64-unknown-linux-gnu-no-audio.zip --output uiua.zip
+=======
+          gh release download 0.14.0-dev.7 --repo uiua-lang/uiua --pattern uiua-bin-x86_64-unknown-linux-gnu-no-audio.zip --output uiua.zip
+>>>>>>> 86f93aa (Add `killer-sudoku-helper` exercise)
           unzip uiua.zip
           echo "${PWD}" >> "${GITHUB_PATH}"
         env:
