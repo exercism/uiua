@@ -555,6 +555,14 @@
         "difficulty": 6
       },
       {
+        "slug": "knapsack",
+        "name": "Knapsack",
+        "uuid": "87922ec1-b30a-47ea-8c37-fdeb1b86b209",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "parallel-letter-frequency",
         "name": "Parallel Letter Frequency",
         "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
