@@ -595,6 +595,14 @@
         "difficulty": 7
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "c4f16cf6-9f80-4d3a-bdad-c434483fc120",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
