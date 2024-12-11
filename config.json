@@ -603,6 +603,14 @@
         "difficulty": 6
       },
       {
+        "slug": "palindrome-products",
+        "name": "Palindrome Products",
+        "uuid": "2810c41a-49c6-4db3-9afe-7f39bb2de651",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "parallel-letter-frequency",
         "name": "Parallel Letter Frequency",
         "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
