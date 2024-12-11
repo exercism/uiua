@@ -451,6 +451,14 @@
         "difficulty": 5
       },
       {
+        "slug": "diffie-hellman",
+        "name": "Diffie-Hellman",
+        "uuid": "b11e4b1a-09f7-4f10-83da-46cde3aed5b8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "etl",
         "name": "ETL",
         "uuid": "2a5b0deb-bfee-4c43-9988-0d9f389d82fe",
