@@ -1,4 +1,4 @@
 Scores           ← ∘
-Latest           ← ⊢ ⇌
+Latest           ← ⊣
 PersonalBest     ← ⊢⊏⍖.
 PersonalTopThree ← ↙↧3⧻.⊏⍖.
