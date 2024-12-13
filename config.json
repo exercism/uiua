@@ -507,6 +507,14 @@
         "difficulty": 5
       },
       {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "475d74fd-8387-4a6b-9323-5715b1691d1c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "strain",
         "name": "Strain",
         "uuid": "f5d3eab8-59c8-47ba-aa75-00d81fe90dc2",
