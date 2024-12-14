@@ -1,6 +1,6 @@
 # Generate a private key
 # Key ? PrimeP
-PrivateKey ← |1 ⊙(⍤"Please implement PrivateKey" 0)
+GeneratePrivateKey ← |1 ⊙(⍤"Please implement GeneratePrivateKey" 0)
 
 # Calculate the public key
 # PublicKey ? PrimeP PrimeG PrivateKey 

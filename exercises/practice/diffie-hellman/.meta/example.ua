@@ -1,4 +1,4 @@
-PrivateKey ← ⍜(-2|⌊×)⊙⚂
-PowMod     ← ◿⊙(ⁿ:)
-PublicKey  ← PowMod
-Secret     ← PowMod
+GeneratePrivateKey ← ⍜(-2|⌊×)⊙⚂
+PowMod             ← ◿⊙(ⁿ:)
+PublicKey          ← PowMod
+Secret             ← PowMod
