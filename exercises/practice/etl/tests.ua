@@ -2,7 +2,7 @@
 
 # single letter
 Input    ← map {"1"} {"A"}
-Expected ← map "a" 1
+Expected ← map "a" [1]
 ⍤⤙≍ Expected Transform Input
 
 # single score with multiple letters
