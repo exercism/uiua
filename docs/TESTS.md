@@ -7,7 +7,7 @@ However, modifying tests does not affect the online test-runner process.
 
 ## Local Testing
 
-To runs an exercise's tests, open a terminal in the exercise's directory and run the `uiua tests tests.ua` command.
+To runs an exercise's tests, open a terminal in the exercise's directory and run the `uiua test tests.ua` command.
 
 For example, the output of an unedited `hello-world` exercise might look like this:
 
