@@ -579,6 +579,14 @@
         "difficulty": 6
       },
       {
+        "slug": "ocr-numbers",
+        "name": "OCR Numbers",
+        "uuid": "c4ffd3ea-1586-4fb0-9738-f4a0d232e118",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "parallel-letter-frequency",
         "name": "Parallel Letter Frequency",
         "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
