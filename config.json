@@ -387,6 +387,14 @@
         "difficulty": 4
       },
       {
+        "slug": "clock",
+        "name": "Clock",
+        "uuid": "77c9e982-bf98-4f23-9fed-3f65e4a176d7",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "allergies",
         "name": "Allergies",
         "uuid": "13b8f9ea-fc40-4146-a2e9-4c3ded085e2c",
