@@ -579,6 +579,14 @@
         "difficulty": 6
       },
       {
+        "slug": "word-search",
+        "name": "Word Search",
+        "uuid": "58ffd8d4-1d81-423f-9a06-df1806e8c48a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "knapsack",
         "name": "Knapsack",
         "uuid": "87922ec1-b30a-47ea-8c37-fdeb1b86b209",
