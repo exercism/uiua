@@ -1,3 +1,4 @@
-RandomLetters ← (+@A ⌊×26 [⍥⚂] 2)
-RandomDigits  ← (+@0 ⌊×10 [⍥⚂] 3)
+RandomRange   ← + ⌊× ⊙[⍥⚂]
+RandomLetters ← (RandomRange 26 2 @A)
+RandomDigits  ← (RandomRange 10 3 @0)
 GenerateName  ← (⊂ RandomLetters RandomDigits)
