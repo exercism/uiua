@@ -707,6 +707,14 @@
         "difficulty": 8
       },
       {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "58e7ebd6-e458-4715-bd05-ba6a35ba0573",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "run-length-encoding",
         "name": "Run-Length Encoding",
         "uuid": "d83ea09c-39f9-4e00-9a74-3f1d3be262ac",
