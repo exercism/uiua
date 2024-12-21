@@ -705,6 +705,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 9
+      },
+      {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "58e7ebd6-e458-4715-bd05-ba6a35ba0573",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 9
       }
     ],
     "foregone": [
