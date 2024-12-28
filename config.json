@@ -651,6 +651,14 @@
         "difficulty": 7
       },
       {
+        "slug": "connect",
+        "name": "Connect",
+        "uuid": "0c4ca569-6619-4515-9ee5-592224ed553b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "0a702019-2325-4124-862a-49cc5615cee4",
