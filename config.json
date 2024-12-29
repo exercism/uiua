@@ -667,6 +667,14 @@
         "difficulty": 7
       },
       {
+        "slug": "dominoes",
+        "name": "Dominoes",
+        "uuid": "fc4731ce-4274-4d44-bc42-42e9b9497e53",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "7b887e00-876e-462a-830d-4fe8f939466a",
