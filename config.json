@@ -619,6 +619,14 @@
         "difficulty": 6
       },
       {
+        "slug": "state-of-tic-tac-toe",
+        "name": "State of Tic-Tac-Toe",
+        "uuid": "fe48e4f0-95a9-46f0-94ed-6565fb38d2ab",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "parallel-letter-frequency",
         "name": "Parallel Letter Frequency",
         "uuid": "e45c4799-1b12-455e-9972-9804f2414666",
