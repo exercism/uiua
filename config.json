@@ -171,6 +171,14 @@
         "difficulty": 2
       },
       {
+        "slug": "micro-blog",
+        "name": "Micro Blog",
+        "uuid": "d2ba9ce7-42ee-4ab9-a378-0fc4fd505713",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "armstrong-numbers",
         "name": "Armstrong Numbers",
         "uuid": "c03770d3-bb65-40bf-b687-12f31000f28c",
