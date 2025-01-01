@@ -483,6 +483,14 @@
         "difficulty": 5
       },
       {
+        "slug": "rational-numbers",
+        "name": "Rational Numbers",
+        "uuid": "435be51f-1a19-475b-97ae-62af626a2b21",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "robot-simulator",
         "name": "Robot Simulator",
         "uuid": "6d0a1479-a07f-4824-841f-52618b43a93f",
