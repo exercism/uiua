@@ -539,6 +539,14 @@
         "difficulty": 5
       },
       {
+        "slug": "forth",
+        "name": "Forth",
+        "uuid": "eab77e91-52bf-497b-88a5-0404e11a64e4",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "strain",
         "name": "Strain",
         "uuid": "f5d3eab8-59c8-47ba-aa75-00d81fe90dc2",
