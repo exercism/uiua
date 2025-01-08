@@ -1,4 +1,3 @@
-# Experimental!
 ~ "pig-latin.ua" ~ Translate
 
 # word beginning with a
