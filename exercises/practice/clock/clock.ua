@@ -4,11 +4,11 @@
   New ← |2 ⊙⋅(⍤ "Please implement New" 0)
   
   # Add minutes to a clock
-  # Clock ? Clock Minutes
+  # Clock ? Minutes Clock
   Add ← |2 ⊙⋅(⍤ "Please implement Add" 0)
   
   # Subtract minutes to a clock
-  # Clock ? Clock Minutes
+  # Clock ? Minutes Clock
   Sub ← |2 ⊙⋅(⍤ "Please implement Sub" 0)
   
   # Return a clock's time formatted as a string
