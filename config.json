@@ -723,6 +723,14 @@
         "difficulty": 8
       },
       {
+        "slug": "rail-fence-cipher",
+        "name": "Rail Fence Cipher",
+        "uuid": "8212c584-baab-4ee4-a63b-c62530699f11",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "game-of-life",
         "name": "Conway's Game of Life",
         "uuid": "76ecd4a7-487d-4cb6-9fd0-15b6caa769b8",
