@@ -691,6 +691,14 @@
         "difficulty": 7
       },
       {
+        "slug": "intergalactic-transmission",
+        "name": "Intergalactic Transmission",
+        "uuid": "c744b14c-de8c-4015-adc5-6ea50e08377d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "nth-prime",
         "name": "Nth Prime",
         "uuid": "1dabde92-f6b2-429d-9856-87c5aa1d027b",
