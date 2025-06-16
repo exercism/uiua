@@ -3,4 +3,4 @@ ColorCode ← |1 ⊗0 ⊗Colors
 
 # Turn color-coded bands of resistors into resistance value
 # Value ? Colors
-ResistorsValue ← |1 /+ × [10 1] ∵ColorCode ↯ [2]
+ResistorsValue ← |1 /+ × [10 1] ≡ColorCode ↯ [2]
