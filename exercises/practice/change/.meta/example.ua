@@ -11,4 +11,4 @@ Coins ← (
   ◇⍆⊣ ∧Process Combinations
   ⨬(∘|⍤"can't make target with given coins")=∞.
 )
-Change ← ⨬(⍤"target can't be negative"|[]|Coins)+1±,
+Change ← ⨬(⍤"target can't be negative"|[]|Coins)+1±⊃(⋅∘|⊙∘)
