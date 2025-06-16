@@ -1,1 +1,1 @@
-IsArmstrongNumber ← |1 = /+ⁿ⊸⧻ ∵(⋕)°⋕ .
+IsArmstrongNumber ← |1 = /+ⁿ⊸⧻ ≡(⋕)°⋕ .
