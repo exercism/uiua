@@ -1,14 +1,7 @@
-Merge ← ⍣(
-  ⊂⊓⊢⊣ ◡(⍤. =⊓⊣⊢)
-| ⊂∩⊢ ◡(⍤. =∩⊣)
-)
-Rotations ← ≡↻⊃(⇡⧻|¤)
-CanChain ← |1 ⨬(
-  1
-| ≍≡⇌.
-| °⊂
-  ⊙Rotations
-  ≡⊂¤
-  ≡(⍣(CanChain ⍜(↙2|Merge °⊟)) 0)
-  /↥
-) ↧2⧻.
+IsConnected ↚ ⍣(
+  ⊸⊢◴⊃♭(¤⊂⊸≡⇌)
+  /↧≡⍣(⋅1⊢path(▽=⊙⋅≡⊃⊢⊣)≍)0
+)1
+IsEven ↚ /↧=₀◿₂⊕⧻.♭
+
+CanChain ← ↧⊃IsConnected IsEven
