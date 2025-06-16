@@ -2,11 +2,11 @@
 
 # Private key is greater than 1 and less than p
 P ← 7919
-⍤⤙≍ 1 /××⊃(≥2|<P) [⍥(GeneratePrivateKey P) 1000]
+⍤⤙≍ 1 /××⊃(≥2|<P) ⍥₁₀₀₀(GeneratePrivateKey P)
 
 # Private key is random
 P ← 7919
-⍤⤙≍ 1 >100 ⧻◴ [⍥(GeneratePrivateKey P) 1000]
+⍤⤙≍ 1 >100 ⧻◴ ⍥₁₀₀₀(GeneratePrivateKey P)
 
 # Can calculate public key using private key
 P          ← 23
