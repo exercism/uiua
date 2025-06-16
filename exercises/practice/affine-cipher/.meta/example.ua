@@ -1,5 +1,5 @@
 Coprime  ← ¬/↥≡⌕ ∩(°/×)
-MMI      ← ⊗1◿:×⇡,
+MMI      ← ⊗1˜◿×⊃(⋅⇡|⊙∘)
 Validate ← ⍤"a and m must be coprime" (Coprime :26)
 Groups   ← ⊜(□∘)\+=0◿5°⊏
 Sanitize ← ▽+⊃(⌵±|×⊃(≥@0|≤@9)).¯⌵
