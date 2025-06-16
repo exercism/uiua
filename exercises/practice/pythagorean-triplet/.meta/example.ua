@@ -1,6 +1,3 @@
-TripletsWithSum ← ▽= ⟜(
-  ⧅<2 +1⇡
-  ⊸(√≡/+×.)
-  ≡⊂: ∩▽,⤙=⊸⌊
-  ⊸≡/+
-)
+GeneratePairs    ← ⊸⍜°√/+⍉⧅₂<↘₁⇡
+FilterValidPairs ← ⊸≡/+▽⊃(=⊸⌊|⍉⊂)
+TripletsWithSum  ← |1 ◴≡⍆▽=⟜(FilterValidPairs GeneratePairs)
