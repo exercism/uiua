@@ -667,6 +667,14 @@
         "difficulty": 7
       },
       {
+        "slug": "variable-length-quantity",
+        "name": "Variable Length Quantity",
+        "uuid": "1fd5aa6c-6f0d-4851-87eb-18f346f284af",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "connect",
         "name": "Connect",
         "uuid": "0c4ca569-6619-4515-9ee5-592224ed553b",
