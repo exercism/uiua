@@ -435,6 +435,14 @@
         "difficulty": 5
       },
       {
+        "slug": "baffling-birthdays",
+        "name": "Baffling Birthdays",
+        "uuid": "75c0d8dd-43f5-43de-aa78-09053cef3931",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "bottle-song",
         "name": "Bottle Song",
         "uuid": "d5de2a9d-7fef-4475-94a8-c43fc770ecd8",
