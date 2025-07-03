@@ -26,11 +26,11 @@ description = "keeps neither first nor last"
 
 [8908e351-4437-4d2b-a0f7-770811e48816]
 description = "keeps strings"
-include = "false"
+include = false
 
 [2728036b-102a-4f1e-a3ef-eac6160d876a]
 description = "keeps lists"
-include = "false"
+include = false
 
 [ef16beb9-8d84-451a-996a-14e80607fce6]
 description = "discard on empty list returns empty list"
@@ -49,8 +49,8 @@ description = "discards neither first nor last"
 
 [daf25b36-a59f-4f29-bcfe-302eb4e43609]
 description = "discards strings"
-include = "false"
+include = false
 
 [a38d03f9-95ad-4459-80d1-48e937e4acaf]
 description = "discards lists"
-include = "false"
+include = false
