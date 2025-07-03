@@ -475,6 +475,14 @@
         "difficulty": 5
       },
       {
+        "slug": "flower-field",
+        "name": "Flower Field",
+        "uuid": "f2f6cf2d-7d17-403a-a73d-c6edf5cd96be",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "food-chain",
         "name": "Food Chain",
         "uuid": "48601e2b-bae3-4133-901f-6df39936b04f",
@@ -528,7 +536,8 @@
         "uuid": "475d74fd-8387-4a6b-9323-5715b1691d1c",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 5
+        "difficulty": 5,
+        "status": "deprecated"
       },
       {
         "slug": "pythagorean-triplet",
