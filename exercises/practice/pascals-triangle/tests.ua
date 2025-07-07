@@ -1,9 +1,7 @@
 ~ "pascals-triangle.ua" ~ Triangle
 
 # zero rows
-⍤⤙≍ {
-  []
-} Triangle 0
+⍤⤙≍ {} Triangle 0
 
 # single row
 ⍤⤙≍ {
