@@ -6,7 +6,7 @@
     "concept_exercises": false,
     "test_runner": true,
     "representer": false,
-    "analyzer": false
+    "analyzer": true
   },
   "blurb": "Uiua (wee-wuh) is a general purpose, stack-based, array-oriented programming language with a focus on simplicity, beauty, and tacit code.",
   "version": 3,
