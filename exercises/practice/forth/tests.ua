@@ -10,28 +10,28 @@
 ⍤⤙≍ [3] Evaluate "1 2 +"
 
 # Addition - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "+")
+⍤⤙≍ "empty stack" ⍣(Evaluate "+"|∘)
 
 # Addition - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 +")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 +"|∘)
 
 # Subtraction - can subtract two numbers
 ⍤⤙≍ [¯1] Evaluate "3 4 -"
 
 # Subtraction - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "-")
+⍤⤙≍ "empty stack" ⍣(Evaluate "-"|∘)
 
 # Subtraction - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 -")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 -"|∘)
 
 # Multiplication - can multiply two numbers
 ⍤⤙≍ [8] Evaluate "2 4 *"
 
 # Multiplication - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "*")
+⍤⤙≍ "empty stack" ⍣(Evaluate "*"|∘)
 
 # Multiplication - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 *")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 *"|∘)
 
 # Division - can divide two numbers
 ⍤⤙≍ [4] Evaluate "12 3 /"
@@ -40,13 +40,13 @@
 ⍤⤙≍ [2] Evaluate "8 3 /"
 
 # Division - errors if dividing by zero
-⍤⤙≍ "divide by zero" ⍣(Evaluate "4 0 /")
+⍤⤙≍ "divide by zero" ⍣(Evaluate "4 0 /"|∘)
 
 # Division - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "/")
+⍤⤙≍ "empty stack" ⍣(Evaluate "/"|∘)
 
 # Division - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 /")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 /"|∘)
 
 # Combined arithmetic - addition and subtraction
 ⍤⤙≍ [¯1] Evaluate "1 2 + 4 -"
@@ -61,7 +61,7 @@
 ⍤⤙≍ [1 2 2] Evaluate "1 2 dup"
 
 # Dup - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "dup")
+⍤⤙≍ "empty stack" ⍣(Evaluate "dup"|∘)
 
 # Drop - removes the top value on the stack if it is the only one
 ⍤⤙≍ [] Evaluate "1 drop"
@@ -70,7 +70,7 @@
 ⍤⤙≍ [1] Evaluate "1 2 drop"
 
 # Drop - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "drop")
+⍤⤙≍ "empty stack" ⍣(Evaluate "drop"|∘)
 
 # Swap - swaps the top two values on the stack if they are the only ones
 ⍤⤙≍ [2 1] Evaluate "1 2 swap"
@@ -79,10 +79,10 @@
 ⍤⤙≍ [1 3 2] Evaluate "1 2 3 swap"
 
 # Swap - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "swap")
+⍤⤙≍ "empty stack" ⍣(Evaluate "swap"|∘)
 
 # Swap - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 swap")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 swap"|∘)
 
 # Over - copies the second element if there are only two
 ⍤⤙≍ [1 2 1] Evaluate "1 2 over"
@@ -91,10 +91,10 @@
 ⍤⤙≍ [1 2 3 2] Evaluate "1 2 3 over"
 
 # Over - errors if there is nothing on the stack
-⍤⤙≍ "empty stack" ⍣(Evaluate "over")
+⍤⤙≍ "empty stack" ⍣(Evaluate "over"|∘)
 
 # Over - errors if there is only one value on the stack
-⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 over")
+⍤⤙≍ "only one value on the stack" ⍣(Evaluate "1 over"|∘)
 
 # Case-insensitivity - DUP is case-insensitive
 ⍤⤙≍ [1 1 1 1] Evaluate "1 DUP Dup dup"

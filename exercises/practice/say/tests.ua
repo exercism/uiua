@@ -52,7 +52,7 @@
 ⍤⤙≍ "nine hundred eighty-seven billion six hundred fifty-four million three hundred twenty-one thousand one hundred twenty-three" Say 987654321123
 
 # Numbers below zero are out of range
-⍤⤙≍ "input out of range" ⍣(Say ¯1)
+⍤⤙≍ "input out of range" ⍣(Say ¯1|∘)
 
 # Numbers above 999,999,999,999 are out of range
-⍤⤙≍ "input out of range" ⍣(Say 1000000000000)
+⍤⤙≍ "input out of range" ⍣(Say 1000000000000|∘)

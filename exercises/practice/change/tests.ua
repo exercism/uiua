@@ -57,14 +57,14 @@ Expected ← []
 # Error testing for change smaller than the smallest of coins
 Coins  ← [5 10]
 Target ← 3
-⍤⤙≍ "can't make target with given coins" ⍣(Change Coins Target)
+⍤⤙≍ "can't make target with given coins" ⍣(Change Coins Target|∘)
 
 # Error if no combination can add up to target
 Coins  ← [5 10]
 Target ← 94
-⍤⤙≍ "can't make target with given coins" ⍣(Change Coins Target)
+⍤⤙≍ "can't make target with given coins" ⍣(Change Coins Target|∘)
 
 # Cannot find negative change values
 Coins  ← [1 2 5]
 Target ← ¯5
-⍤⤙≍ "target can't be negative" ⍣(Change Coins Target)
+⍤⤙≍ "target can't be negative" ⍣(Change Coins Target|∘)

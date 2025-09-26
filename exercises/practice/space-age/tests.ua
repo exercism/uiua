@@ -25,4 +25,4 @@
 ⍤⤙≍ 0.35 SpaceAge "Neptune" 1821023456
 
 # invalid planet causes error
-⍤⤙≍ "not a planet" ⍣(SpaceAge "Sun" 680804807)
+⍤⤙≍ "not a planet" ⍣(SpaceAge "Sun" 680804807|∘)

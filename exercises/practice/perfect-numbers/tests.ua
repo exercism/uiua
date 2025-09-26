@@ -34,7 +34,7 @@
 ⍤⤙≍ "deficient" ClassifyNumber 1
 
 # Zero is rejected (as it is not a positive integer)
-⍤⤙≍ "number must be positive" ⍣(ClassifyNumber 0)
+⍤⤙≍ "number must be positive" ⍣(ClassifyNumber 0|∘)
 
 # Negative integer is rejected (as it is not a positive integer)
-⍤⤙≍ "number must be positive" ⍣(ClassifyNumber ¯1)
+⍤⤙≍ "number must be positive" ⍣(ClassifyNumber ¯1|∘)

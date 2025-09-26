@@ -70,10 +70,10 @@
 ⍤⤙≍ [4294967295] Decode [143 255 255 255 127]
 
 # Incomplete sequence causes error
-⍤⤙≍ "incomplete sequence" ⍣(Decode [255])
+⍤⤙≍ "incomplete sequence" ⍣(Decode [255]|∘)
 
 # Incomplete sequence causes error, even if value is zero
-⍤⤙≍ "incomplete sequence" ⍣(Decode [128])
+⍤⤙≍ "incomplete sequence" ⍣(Decode [128]|∘)
 
 # Multiple values
 ⍤⤙≍ [8192 1193046 268435455 0 16383 16384] Decode [192 0 200 232 86 255 255 255 127 0 255 127 129 128 0]

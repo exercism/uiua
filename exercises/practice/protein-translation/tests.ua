@@ -82,7 +82,7 @@
 ⍤⤙≍ {"Methionine" "Methionine"} Proteins "AUGAUG"
 
 # Unknown amino acids not part of a codon can't translate
-⍤⤙≍ "invalid codon" ⍣(Proteins "XYZ")
+⍤⤙≍ "invalid codon" ⍣(Proteins "XYZ"|∘)
 
 # Incomplete RNA sequence can't translate
-⍤⤙≍ "invalid codon" ⍣(Proteins "AUGU")
+⍤⤙≍ "invalid codon" ⍣(Proteins "AUGU"|∘)

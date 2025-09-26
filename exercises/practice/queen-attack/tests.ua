@@ -1,16 +1,16 @@
 ~ "queen-attack.ua" ~ Queen
 
 # Queen must have positive row
-⍤⤙≍ "invalid row" ⍣(Queen~New ¯2 2)
+⍤⤙≍ "invalid row" ⍣(Queen~New ¯2 2|∘)
 
 # Queen must have row on board
-⍤⤙≍ "invalid row" ⍣(Queen~New 8 4)
+⍤⤙≍ "invalid row" ⍣(Queen~New 8 4|∘)
 
 # Queen must have positive column
-⍤⤙≍ "invalid column" ⍣(Queen~New 2 ¯2)
+⍤⤙≍ "invalid column" ⍣(Queen~New 2 ¯2|∘)
 
 # Queen must have column on board
-⍤⤙≍ "invalid column" ⍣(Queen~New 4 8)
+⍤⤙≍ "invalid column" ⍣(Queen~New 4 8|∘)
 
 # Row of queen with a valid position
 ⍤⤙≍ 2 Queen~Row Queen~New 2 3

@@ -88,52 +88,52 @@ Expected   ← [4 2]
 Digits     ← [0]
 InputBase  ← 1
 OutputBase ← 10
-⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Input base is zero
 Digits     ← []
 InputBase  ← 0
 OutputBase ← 10
-⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Input base is negative
 Digits     ← [1]
 InputBase  ← ¯2
 OutputBase ← 10
-⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Negative digit
 Digits     ← [1 ¯1 1 0 1 0]
 InputBase  ← 2
 OutputBase ← 10
-⍤⤙≍ "all digits must satisfy 0 <= d < input base" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "all digits must satisfy 0 <= d < input base" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Invalid positive digit
 Digits     ← [1 2 1 0 1 0]
 InputBase  ← 2
 OutputBase ← 10
-⍤⤙≍ "all digits must satisfy 0 <= d < input base" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "all digits must satisfy 0 <= d < input base" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Output base is one
 Digits     ← [1 0 1 0 1 0]
 InputBase  ← 2
 OutputBase ← 1
-⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Output base is zero
 Digits     ← [7]
 InputBase  ← 10
 OutputBase ← 0
-⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Output base is negative
 Digits     ← [1]
 InputBase  ← 2
 OutputBase ← ¯7
-⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "output base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
 
 # Both bases are negative
 Digits     ← [1]
 InputBase  ← ¯2
 OutputBase ← ¯7
-⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase)
+⍤⤙≍ "input base must be >= 2" ⍣(Rebase Digits InputBase OutputBase|∘)
