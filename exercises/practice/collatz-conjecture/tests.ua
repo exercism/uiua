@@ -10,7 +10,7 @@
 ⍤⤙≍ 4 Steps 16
 
 # zero is an error
-⍤⤙≍ "only positive integers are allowed" ⍣(Steps 0)
+⍤⤙≍ "only positive integers are allowed" ⍣(Steps 0|∘)
 
 # negative value is an error
-⍤⤙≍ "only positive integers are allowed" ⍣(Steps ¯15)
+⍤⤙≍ "only positive integers are allowed" ⍣(Steps ¯15|∘)
