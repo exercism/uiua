@@ -33,7 +33,7 @@ Expected ← ↯0_3[]
 ⍤⤙≍ Expected Largest 15 15
 
 # Error result for smallest if min is more than max
-⍤⤙≍ "invalid range" ⍣(Smallest 10000 1)
+⍤⤙≍ "invalid range" ⍣(Smallest 10000 1|∘)
 
 # Error result for largest if min is more than max
-⍤⤙≍ "invalid range" ⍣(Largest 2 1)
+⍤⤙≍ "invalid range" ⍣(Largest 2 1|∘)

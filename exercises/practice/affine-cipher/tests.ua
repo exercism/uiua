@@ -25,7 +25,7 @@
 ⍤⤙≍ "swxtj npvyk lruol iejdc blaxk swxmh qzglf" Encode "The quick brown fox jumps over the lazy dog." 17 33
 
 # encode with a not coprime to m
-⍤⤙≍ "a and m must be coprime" ⍣(Encode "This is a test." 6 17)
+⍤⤙≍ "a and m must be coprime" ⍣(Encode "This is a test." 6 17|∘)
 
 # decode exercism
 ⍤⤙≍ "exercism" Decode "tytgn fjr" 3 7
@@ -46,4 +46,4 @@
 ⍤⤙≍ "jollygreengiant" Decode "vszzm    cly   yd cg    qdp" 15 16
 
 # decode with a not coprime to m
-⍤⤙≍ "a and m must be coprime" ⍣(Decode "Test" 13 5)
+⍤⤙≍ "a and m must be coprime" ⍣(Decode "Test" 13 5|∘)
