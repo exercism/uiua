@@ -5,5 +5,5 @@ ValidBases ← (
 ValidDigits ← ⍤"all digits must satisfy 0 <= d < input base" /×↧⊃(≥0|<:)
 Valid       ← ⊃(ValidDigits|⋅ValidBases)
 FromInput   ← /+×ⁿ:⊙(⇌°⊏):
-ToOutput    ← ⨬([0]|◿:⌊÷⊸⊃(ⁿ⊙⋅∘|⋅∘)◡(⇌⇡+1⌊ₙ:))±.
+ToOutput    ← ⨬([0]|◿:⌊÷⊸⊃(ⁿ⊙⋅∘|⋅∘)◡(⇌⇡+1⌊⌝˜ⁿ:))±.
 Rebase      ← ToOutput FromInput ◡Valid
