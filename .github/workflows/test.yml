@@ -25,7 +25,7 @@ jobs:
           unzip uiua.zip
           echo "${PWD}" >> "${GITHUB_PATH}"
         env:
-          VERSION: 0.17.0
+          VERSION: 0.17.2
           GH_TOKEN: ${{ github.token }}
 
       - name: Verify all exercises
