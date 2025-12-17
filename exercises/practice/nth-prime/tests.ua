@@ -13,4 +13,4 @@
 ⍤⤙≍ 104743 Prime 10001
 
 # There is no zeroth prime
-⍤⤙≍ "there is no zeroth prime" ⍣(Prime 0)
+⍤⤙≍ "there is no zeroth prime" ⍣(Prime 0|∘)
