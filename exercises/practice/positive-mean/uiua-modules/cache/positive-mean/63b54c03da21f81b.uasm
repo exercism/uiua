@@ -1,0 +1,26 @@
+
+DEPENDENCIES
+
+EXPORTS
+PositiveMean 0
+
+BINDINGS
+func ["PositiveMean",[1,1],0,3397973006983296384] 0
+  comment: {"text":"Calculate the average of positive numbers"}
+
+FUNCTIONS
+["DIP",[[0,0,[0,"Please implement PositiveMean",["ASSERT",2]]]],3]
+
+INDEX MACROS
+
+CODE MACROS
+
+SPANS
+file0 [2,1,44,44] [2,13,56,56]
+file0 [2,21,68,64] [2,22,71,65]
+file0 [2,19,64,62] [2,20,67,63]
+
+FILES
+positive-mean.ua: "# Calculate the average of positive numbers\nPositiveMean ← |1 ⊙(⍤ \"Please implement PositiveMean\" 0)\n"
+
+MACRO EXPANSIONS

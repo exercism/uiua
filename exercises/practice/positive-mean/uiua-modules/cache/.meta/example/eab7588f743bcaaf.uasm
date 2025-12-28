@@ -1,0 +1,32 @@
+
+DEPENDENCIES
+
+EXPORTS
+PositiveMean 0
+
+BINDINGS
+func ["PositiveMean",[1,1],0,16252190741234106160] 0
+  comment: {"text":"Calculate the positive mean of an array of numbers\nfilter positive values: ▽ ⊸(>0)\nfork to extract \"length\" and \"sum of all elements\": ⊃(⧻|/+)\ndivide \"sum of all elements\" by \"length\": ÷"}
+
+FUNCTIONS
+[["BY",[[1,1,[0,["GT",2]]]],3],["KEEP",4],["FORK",[[1,1,["LEN",5]],[1,1,["REDUCE",[[2,1,["ADD",7]]],6]]],8],["DIV",9]]
+
+INDEX MACROS
+
+CODE MACROS
+
+SPANS
+file0 [5,1,205,196] [5,13,217,208]
+file0 [5,30,245,225] [5,31,246,226]
+file0 [5,28,241,223] [5,29,244,224]
+file0 [5,26,237,221] [5,27,240,222]
+file0 [5,20,229,215] [5,21,232,216]
+file0 [5,22,233,217] [5,23,234,218]
+file0 [5,23,234,218] [5,24,235,219]
+file0 [5,18,225,213] [5,19,228,214]
+file0 [5,16,222,211] [5,17,224,212]
+
+FILES
+.meta/example.ua: "# Calculate the positive mean of an array of numbers\n# filter positive values: ▽ ⊸(>0) \n# fork to extract \"length\" and \"sum of all elements\": ⊃(⧻|/+)\n# divide \"sum of all elements\" by \"length\": ÷\nPositiveMean ← ÷ ⊃(⧻|/+) ▽ ⊸(>0)\n"
+
+MACRO EXPANSIONS

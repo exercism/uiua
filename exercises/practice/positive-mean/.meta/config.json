@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "BrunoArsioli"
+  ],
+  "files": {
+    "solution": [
+      "positive-mean.ua"
+    ],
+    "test": [
+      "tests.ua"
+    ],
+    "example": [
+      ".meta/example.ua"
+    ]
+  },
+  "blurb": ""
+}
