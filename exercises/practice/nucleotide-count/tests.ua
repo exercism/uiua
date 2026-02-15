@@ -13,4 +13,4 @@
 ⍤⤙≍ map "ACGT" 20_12_17_21 NucleotideCounts "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
 
 # strand with invalid nucleotides
-⍤⤙≍ "invalid nucleotide in strand" ⍣(NucleotideCounts "AGXXACT")
+⍤⤙≍ "invalid nucleotide in strand" ⍣(NucleotideCounts "AGXXACT"|∘)

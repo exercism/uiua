@@ -82,11 +82,11 @@ Expected ← [41]
 
 # first byte has wrong parity
 Message ← [7 0]
-⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message)
+⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message|∘)
 
 # second byte has wrong parity
 Message ← [3 104]
-⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message)
+⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message|∘)
 
 # 0xcf4b00 is decoded to 0xce94
 Message  ← [207 75 0]
@@ -110,7 +110,7 @@ Expected ← [71 114 101 97 116 49 33]
 
 # last byte has wrong parity
 Message ← [71 184 153 172 23 160 197 67]
-⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message)
+⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message|∘)
 
 # eight byte message
 Message  ← [192 0 68 102 125 6 120 66 33 129]
@@ -124,4 +124,4 @@ Expected ← [69 120 101 114 99 105 115 109 32 105 115 32 97 119 101 115 111 109
 
 # wrong parity on 16th byte
 Message ← [68 189 24 175 39 27 165 231 108 144 27 46 51 3 132 239 101 184 219 237 215 40 132]
-⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message)
+⍤⤙≍ "wrong parity" ⍣(DecodeMessage Message|∘)
