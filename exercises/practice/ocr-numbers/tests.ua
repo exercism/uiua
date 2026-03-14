@@ -18,7 +18,7 @@ Display ← [
 ]
 ⍤⤙≍ "1" Convert Display
 
-# Unreadable but correctly sized displays return ?
+# Unreadable but correctly sized displays return `?`
 Display ← [
   "   "
   "  _"
@@ -53,7 +53,7 @@ Display ← [
 ]
 ⍤⤙≍ "110101100" Convert Display
 
-# Garbled numbers in a string are replaced with ?
+# Garbled numbers in a string are replaced with `?`
 Display ← [
   "       _     _           _ "
   "  |  || |  || |     || || |"
