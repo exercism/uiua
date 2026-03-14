@@ -49,17 +49,17 @@
 ⍤⤙= 4 Modifier 18
 
 # random ability is within range
-⍤⤙×≥3:⊸≤18 Ability
+⍤⤙≍⊃(≥3|≤18) Ability
 
 # random character is valid
 SomeCharacter ← Character
-⍤⤙×≥3:⊸≤18 Strength SomeCharacter
-⍤⤙×≥3:⊸≤18 Dexterity SomeCharacter
-⍤⤙×≥3:⊸≤18 Constitution SomeCharacter
-⍤⤙×≥3:⊸≤18 Intelligence SomeCharacter
-⍤⤙×≥3:⊸≤18 Wisdom SomeCharacter
-⍤⤙×≥3:⊸≤18 Charisma SomeCharacter
-⍤⤙×≥3:⊸≤18 Strength SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Strength SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Dexterity SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Constitution SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Intelligence SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Wisdom SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Charisma SomeCharacter
+⍤⤙≍⊃(≥3|≤18) Strength SomeCharacter
 ⍤⤙= +10 Modifier Constitution ⟜Hitpoints SomeCharacter
 
 # Expected values were changed to cover all character abilities"
@@ -75,7 +75,7 @@ AnotherCharacter ← Character
 # Additional tests to check for some randomness
 
 # Check if Ability is returning valid results, 100 times
-⍤⤙=1/= ×≥3:⊸≤18 ⍥(⊂Ability) 100 []
+⍤⤙=1/↧ ↧⊃(≥3|≤18) ⍥(⊂Ability) 100 []
 
 # Check if Ability is returning at least 2 different values when called 100 times
 ⍤⤙>1⧻◴⍥(⊂Ability) 100 []
