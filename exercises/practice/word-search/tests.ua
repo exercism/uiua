@@ -235,7 +235,7 @@ Expected ← map Words {[10_1 10_7] [5_6 5_1] [1_10 10_10] [5_9 2_9] [1_1 4_4] [
 Grid     ← $ abc
            $ def
 Words    ← {"aef" "ced" "abf" "cbd"}
-Expected ← map Words {...[]}
+Expected ← map Words {[][][][]}
 ⍤⤙≍ Expected Search Words Grid
 
 # Should not concatenate different lines to find a horizontal word
