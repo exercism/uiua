@@ -4,6 +4,6 @@ Alnum     ← ⊂Letters Digits
 Reversed  ← ⊂⇌Letters Digits
 Sanitize  ← ▽∊Alnum.
 Groups    ← ⊜(□∘)\+=0◿5°⊏
-Translate ← ⊏ ⟜Reversed ⊗ ⟜Alnum Sanitize ¯⌵
+Translate ← ⊏ ⟜Reversed ˜⨂ ⟜Alnum Sanitize ¯⌵
 Encode    ← /$"_ _" Groups Translate
 Decode    ← Translate Sanitize

@@ -1,7 +1,9 @@
-Palindrome! ↚ (
+IsPalindrome ← ≍⟜⇌°⋕
+Candidates   ← ≡[◡×°⊟]▽⊸(¬⧆)♭₂˙⊞(⨬(⊟|˜⊟)◡<)(⊂⊸⍜-⇡)
+Palindromes  ← ▽⊸≡(IsPalindrome⊢) Candidates
+Extreme! ← (
   ⍤"invalid range"◡≥
-  ◴⟜≡⊂⊸≡/×⧅₂≤ ⍜-⇡⊙+₁
-  ▽=⊃(⋅≡⊢|⊙∘)/^0 ⍆▽=⊸≡⇌⊸°⋕
+  ▽⊸(≡⊢(=⊢))⊸(/^≡⊢)Palindromes
 )
-Smallest ← Palindrome!↧
-Largest  ← Palindrome!↥
+Smallest ← Extreme!↧
+Largest  ← Extreme!↥

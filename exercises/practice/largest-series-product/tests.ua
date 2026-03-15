@@ -28,7 +28,7 @@
 ⍤⤙≍ 0 LargestProduct "99099" 3
 
 # rejects span longer than string length
-⍤⤙≍ "span must be smaller than string length" ⍣(LargestProduct "123" 4)
+⍤⤙≍ "span must be smaller than string length" ⍣(LargestProduct "123" 4|∘)
 
 # reports 1 for empty string and empty product (0-span)
 ⍤⤙≍ 1 LargestProduct "" 0
@@ -37,10 +37,10 @@
 ⍤⤙≍ 1 LargestProduct "123" 0
 
 # rejects empty string and nonzero span
-⍤⤙≍ "span must be smaller than string length" ⍣(LargestProduct "" 1)
+⍤⤙≍ "span must be smaller than string length" ⍣(LargestProduct "" 1|∘)
 
 # rejects invalid character in digits
-⍤⤙≍ "invalid character in digits" ⍣(LargestProduct "1234a5" 2)
+⍤⤙≍ "invalid character in digits" ⍣(LargestProduct "1234a5" 2|∘)
 
 # rejects negative span
-⍤⤙≍ "span must not be negative" ⍣(LargestProduct "12345" ¯1)
+⍤⤙≍ "span must not be negative" ⍣(LargestProduct "12345" ¯1|∘)
