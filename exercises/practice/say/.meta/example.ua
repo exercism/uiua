@@ -1,20 +1,16 @@
-ZeroToNineteen ← {"zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "ten" "eleven" "twelve" "thirteen" "fourteen" "fifteen" "sixteen" "seventeen" "eighteen" "nineteen"}
-Tens           ← {"" "ten" "twenty" "thirty" "forty" "fifty" "sixty" "seventy" "eighty" "ninety"}
+Ones   ← °□˜⊏{"" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine"}
+Teens  ← °□˜⊏⍜↘₃⍚(˜⊂"teen"){"ten" "eleven" "twelve" "thir" "four" "fif" "six" "seven" "eigh" "nine"}
+Tens   ← °□˜⊏{"" "" "twenty" "thirty" "forty" "fifty" "sixty" "seventy" "eighty" "ninety"}
+Powers ← °□˜⊏{"" "thousand" "million" "billion"}
 
-SayUnit! ← (
-  ⊃(⊸±⋅◿|˜$"_ _"⊙(^0⌊÷))
-  ⨬(◌|˜$"_ _"^0)
-)
+Join!       ← ⨬⊂^0◡(±×∩⧻)
+SayTens     ← ⨬(˜Join!$"_-_" ⊓Ones Tens|Teens)◡⋅=₁
+SayHundreds ← ˜Join!$"_ _" ⊓(SayTens|▽±⟜($"_ hundred"Ones)) °⊟₃
 
-Say ← |1 (
-  ⍤"input out of range"×⊸⊃(≥0|<1000000000000)
-  ⊸(⊗1≥1000000000_1000000_1000_100_20_0)
-  ⨬(SayUnit!Say "billion" 1000000000
-  | SayUnit!Say "million" 1000000
-  | SayUnit!Say "thousand" 1000
-  | SayUnit!Say "hundred" 100
-  | ⊃(◿10|°□˜⊡Tens⌊÷10)
-    ⨬(⋅|˜$"_-_"Say)⊸±
-  | °□˜⊡ZeroToNineteen
+Say ← (
+  ⊸(×⊃≥₀(<1e12))
+  ⨬"input out of range"(
+    /$"_ _" ⇌ ▽≡(⊃(±⧻|□Join!$"_ _") ⊓SayHundreds Powers) °˜⊏ ⬚0↯∞_3 ⇌-@0°⋕
   )
+  ⍥⋅"zero"⊸(=₀⧻)
 )

@@ -2,8 +2,8 @@ Letters   ← +@a⇡26
 Digits    ← +@0⇡10
 Alnum     ← ⊂Letters Digits
 Reversed  ← ⊂⇌Letters Digits
-Sanitize  ← ▽∊Alnum.
+Sanitize  ← ▽⊸(∊Alnum)
 Groups    ← ⊜(□∘)\+=0◿5°⊏
-Translate ← ⊏ ⟜Reversed ˜⨂ ⟜Alnum Sanitize ¯⌵
+Translate ← |1 ⊏ ⟜Reversed ˜⊗ ⟜Alnum Sanitize ¯⌵
 Encode    ← /$"_ _" Groups Translate
-Decode    ← Translate Sanitize
+Decode    ← |1 Translate Sanitize
