@@ -1,1 +1,1 @@
-Triangle ← ⍚≡⧅<⊸⧅□⇡
+Triangle ← ⍚≡⧅<⊸⧅⌞□⇡

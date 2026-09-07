@@ -1,44 +1,41 @@
-Nationalities ← {"Englishman" "Spaniard" "Ukrainian" "Japanese" "Norwegian"}
+Permutations  ← ⧅≠∞
+Colors        ← Permutations {"Red" "Green" "Ivory" "Yellow" "Blue"}
+Nationalities ← Permutations {"Englishman" "Spaniard" "Ukrainian" "Japanese" "Norwegian"}
+Drinks        ← Permutations {"Coffee" "Tea" "Milk" "OrangeJuice" "Water"}
+Hobbies       ← Permutations {"Dancing" "Painting" "Reading" "Football" "Chess"}
+Pets          ← Permutations {"Dog" "Snails" "Fox" "Horse" "Zebra"}
 
-Def! ←^ /$"_\n_" ⍚$"_ ← _" :°⊏ ⊜□⊸≥@A °$"{_}"°□⊢
-Def!({"Red" "Green" "Ivory" "Yellow" "Blue"})
-Def!({"Englishman" "Spaniard" "Ukrainian" "Japanese" "Norwegian"})
-Def!({"Dog" "Snails" "Fox" "Horse" "Zebra"})
-Def!({"Coffee" "Tea" "Milk" "OrangeJuice" "Water"})
-Def!({"Dancing" "Painting" "Reading" "Football" "Chess"})
-Def!({"Color" "Nationality" "Pet" "Drink" "Hobby"})
+Solution ← (
+  Colors
+  ▽⊸≡(/↥⌕ {"Ivory" "Green"}) # 6
+  ▽⊸≡(=1˜⊗□"Blue")           # 15
 
-Opts        ← ⧅≠⟜⇡5
-ValidColors ← ♭≡≡/↥⌕ [Ivory Green]
-ValidNationalities ← ↧↧⊃(
-  =Norwegian⊢ ⊡Nationality
-| =⊃(⊗Englishman⊡Nationality|⊗Red⊡Color)
-| =₁⌵-⊃(⊗Norwegian⊡Nationality|⊗Blue⊡Color)
-)
-ValidPets ← =⊃(⊗Spaniard⊡Nationality|⊗Dog⊡Pet)
-ValidDrinks ← ↧↧⊃(
-  =Milk⊡₂ ⊡Drink
-| =⊃(⊗Green⊡Color|⊗Coffee⊡Drink)
-| =⊃(⊗Ukrainian⊡Nationality|⊗Tea⊡Drink)
-)
-ValidHobbies ← /↧[⊃(
-    =⊃(⊗Dancing⊡Hobby|⊗Snails⊡Pet)
-  | =⊃(⊗Painting⊡Hobby|⊗Yellow⊡Color)
-  | =₁⌵-⊃(⊗Reading⊡Hobby|⊗Fox⊡Pet)
-  | =₁⌵-⊃(⊗Painting⊡Hobby|⊗Horse⊡Pet)
-  | =⊃(⊗Football⊡Hobby|⊗OrangeJuice⊡Drink)
-  | =⊃(⊗Chess⊡Hobby|⊗Japanese⊡Nationality)
-  )]
+  Nationalities
+  ▽⊸≡(=0˜⊗□"Norwegian") # 10
+  /⊂⊞⊟
+  ▽⊸≡(=⊃(˜⊗□"Englishman"⊡0|˜⊗□"Red"⊡1)) # 2
 
-Sol ← comptime(
-  ▽⊸ValidColors ≡¤ Opts
-  ▽⊸≡ValidNationalities /⊂⊞⊂:Opts
-  ▽⊸≡ValidPets /⊂⊞⊂:Opts
-  ▽⊸≡ValidDrinks /⊂⊞⊂:Opts
-  ▽⊸≡ValidHobbies /⊂⊞⊂:Opts
+  Drinks
+  ▽⊸≡(=2˜⊗□"Milk") # 9
+  /⊂⊞⊂
+  ▽⊸≡(=⊃(˜⊗□"Green"⊡2|˜⊗□"Coffee"⊡0))  # 4
+  ▽⊸≡(=⊃(˜⊗□"Ukrainian"⊡1|˜⊗□"Tea"⊡0)) # 5
+
+  Hobbies
+  /⊂⊞⊂
+  ▽⊸≡(=⊃(˜⊗□"Yellow"⊡3|˜⊗□"Painting"⊡0))      # 8
+  ▽⊸≡(=⊃(˜⊗□"OrangeJuice"⊡1|˜⊗□"Football"⊡0)) # 13
+  ▽⊸≡(=⊃(˜⊗□"Japanese"⊡2|˜⊗□"Chess"⊡0))       # 14
+
+  Pets
+  /⊂⊞⊂
+  ▽⊸≡(=⊃(˜⊗□"Spaniard"⊡3|˜⊗□"Dog"⊡0))      # 3
+  ▽⊸≡(=1⌵-⊃(˜⊗□"Painting"⊡1|˜⊗□"Horse"⊡0)) # 12
+  ▽⊸≡(=⊃(˜⊗□"Dancing"⊡1|˜⊗□"Snails"⊡0))    # 7
+  ▽⊸≡(=1⌵-⊃(˜⊗□"Reading"⊡1|˜⊗□"Fox"⊡0))    # 11
+
   ⊢
 )
 
-GetNat!     ← °□⊡⊙Nationalities⊡⊃^0(⊡Nationality) Sol
-DrinksWater ← GetNat!(⊗Water⊡Drink)
-OwnsZebra   ← GetNat!(⊗Zebra⊡Pet)
+DrinksWater ← °□⊡⊂3⊸(˜⊗□"Water"⊡2) Solution
+OwnsZebra   ← °□⊡⊂3⊸(˜⊗□"Zebra"⊡0) Solution
