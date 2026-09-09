@@ -379,6 +379,14 @@
         "difficulty": 4
       },
       {
+        "slug": "save-the-cow",
+        "name": "Save the Cow",
+        "uuid": "e95636bb-e89a-473f-b5a2-d6b5e1130624",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "1fea04f5-ef39-4bdc-8e03-75758906211f",
