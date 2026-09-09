@@ -203,6 +203,14 @@
         "difficulty": 3
       },
       {
+        "slug": "line-up",
+        "name": "Line Up",
+        "uuid": "4cfaf66f-afbf-46e2-9cb8-a917278e89a5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "matrix",
         "name": "Matrix",
         "uuid": "79931b10-8592-44f0-90e3-52f6b5283817",
@@ -366,6 +374,14 @@
         "slug": "protein-translation",
         "name": "Protein Translation",
         "uuid": "33bca041-4f26-4d6a-ac4c-bcaf342d2472",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "save-the-cow",
+        "name": "Save the Cow",
+        "uuid": "e95636bb-e89a-473f-b5a2-d6b5e1130624",
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
@@ -826,14 +842,6 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 9
-      },
-      {
-        "slug": "save-the-cow",
-        "name": "Save the Cow",
-        "uuid": "e95636bb-e89a-473f-b5a2-d6b5e1130624",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 4
       }
     ],
     "foregone": [
