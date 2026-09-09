@@ -539,6 +539,14 @@
         "difficulty": 5
       },
       {
+        "slug": "ledger",
+        "name": "Ledger",
+        "uuid": "850fff9a-5d7b-4773-9848-505e93a0d477",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "meetup",
         "name": "Meetup",
         "uuid": "6ea08a34-a565-4f26-9754-5ebf92e92bca",

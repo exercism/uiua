@@ -1,0 +1,1 @@
+FormatEntries ← "Date       | Description               | Change       "
