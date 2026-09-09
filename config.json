@@ -826,6 +826,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 9
+      },
+      {
+        "slug": "save-the-cow",
+        "name": "Save the Cow",
+        "uuid": "e95636bb-e89a-473f-b5a2-d6b5e1130624",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       }
     ],
     "foregone": [
