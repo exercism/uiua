@@ -13,7 +13,7 @@ The tool can print the suggestions in json format, to facilitate automation.
 - Execute the jq code to update the suggestions and sort them alphabetically:
 
     ```jq
-    jq --argfile suggestions suggestions.json '
+    jq --slurpfile suggestions suggestions.json '
     .exercises.practice |= (
         map(
         .difficulty = ($suggestions[.slug]?.difficulty // .difficulty)
